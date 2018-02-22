@@ -1,0 +1,3 @@
+D:\Unreal Projects\Strategy\Source\Strategy\Strategy.Build.cs
+D:\Unreal Projects\Strategy\Source\Strategy.Target.cs
+D:\Unreal Projects\Strategy\Source\StrategyEditor.Target.cs

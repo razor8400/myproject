@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Strategy.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{80CED1E1-E583-4E24-AD47-5BE3C8154721}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Strategy.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\StrategyEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F79318C1-D703-4D0E-A8FE-F604A367B2BE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Strategy">
+			<UniqueIdentifier>{5110AA85-A9A4-487E-B4FC-1AD57D5DFA8C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Strategy\Strategy.Build.cs">
+			<Filter>Source\Strategy</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Strategy\Strategy.cpp">
+			<Filter>Source\Strategy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Strategy\Strategy.h">
+			<Filter>Source\Strategy</Filter>
+		</ClInclude >
+		<Filter Include="Source\Strategy\Game">
+			<UniqueIdentifier>{9E1EEF92-1C7C-4C54-AAB5-B9EA34B2C5F5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Strategy\Game\StrategyGameModeBase.cpp">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Strategy\Game\StrategyGameModeBase.h">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Strategy\Game\StrategyPawn.cpp">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Strategy\Game\StrategyPawn.h">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Strategy\Game\StrategyPlayerController.cpp">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Strategy\Game\StrategyPlayerController.h">
+			<Filter>Source\Strategy\Game</Filter>
+		</ClInclude >
+		<Filter Include="Source\Strategy\View">
+			<UniqueIdentifier>{8DD043FD-DD4D-4BF4-99D4-B8623445FD85}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Strategy\View\MapView.cpp">
+			<Filter>Source\Strategy\View</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Strategy\View\MapView.h">
+			<Filter>Source\Strategy\View</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
