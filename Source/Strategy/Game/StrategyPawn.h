@@ -9,6 +9,7 @@
 
 class AMapView;
 class UCameraComponent;
+class USpringArmComponent;
 
 UCLASS()
 class STRATEGY_API AStrategyPawn : public APawn
@@ -34,7 +35,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UCameraComponent* CameraComponent = nullptr;
 
-	std::list<TouchPtr> Touches;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	USpringArmComponent* SpringArmComponent = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MinCameraFow = 45;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MaxCameraFow = 90;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MinCameraDistance = 500;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MaxCameraDistance = 2000;
 
 	AMapView* Map = nullptr;
 };

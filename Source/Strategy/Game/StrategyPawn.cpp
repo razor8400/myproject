@@ -3,7 +3,10 @@
 #include "StrategyPawn.h"
 #include "View/MapView.h"
 #include "Engine/World.h"
+
+//#include "Engine/SpringArmComonent.h"
 #include "Camera/CameraComponent.h"
+
 #include "Strategy.h"
 
 // Sets default values
@@ -32,23 +35,24 @@ void AStrategyPawn::Tick(float DeltaTime)
 
 void AStrategyPawn::OnTouchBegan(const TouchPtr& touch)
 {
-	Touches.push_back(touch);
+
 }
 
 void AStrategyPawn::OnTouchEnded(const TouchPtr& touch)
 {
-	Touches.remove(touch);
+
 }
 
 void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
 {
-	if (Touches.size() == 1)
+	auto player = GetWorld()->GetFirstPlayerController();
+
+	if (player->IsInputKeyDown(EKeys::LeftAlt))
+	{
+
+	}
+	else
 	{
 		Map->ScrollMap(touch->Delta());
-	}
-	else if (Touches.size() == 2)
-	{
-		auto touch1 = Touches.front();
-		auto touch2 = Touches.back();
 	}
 }

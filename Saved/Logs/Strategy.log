@@ -1,4 +1,4 @@
-﻿Log file open, 02/22/18 20:35:46
+﻿Log file open, 02/23/18 01:32:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Strategy
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1670272446) SRandInit(1670272446).
+LogInit: Display: RandInit(1579866869) SRandInit(1579866869).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.174988
+LogStats: Stats thread started at 0.162033
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,87 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Warning: Incompatible or missing module: UE4Editor-Strategy.dll
-Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy Development Win64 -project="D:/Unreal Projects/Strategy/Strategy.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-@progress push 5%
-@progress pop
-Target is up to date
-Deploying StrategyEditor Win64 Development...
-Total build time: 0,61 seconds (NoActionsToExecute executor: 0,00 seconds)
-LogModuleManager: Display: Found up-to-date module file D:/Unreal Projects/Strategy/Binaries/Win64/UE4Editor-Strategy.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file D:/Unreal Projects/myproject/Binaries/Win64/UE4Editor-Strategy-9407.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -272,600 +192,579 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.22-18.35.53:265][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.22-18.35.53:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.22-18.35.53:285][  0]LogInit: Computer: DESKTOP-HS70H9R
-[2018.02.22-18.35.53:285][  0]LogInit: User: vmotl
-[2018.02.22-18.35.53:285][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.22-18.35.53:285][  0]LogInit: High frequency timer resolution =4.101560 MHz
-[2018.02.22-18.35.53:285][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.22-18.35.53:285][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.22-18.35.53:285][  0]LogMemory: Process Physical Memory: 278.71 MB used, 278.71 MB peak
-[2018.02.22-18.35.53:285][  0]LogMemory: Process Virtual Memory: 270.60 MB used, 270.60 MB peak
-[2018.02.22-18.35.53:285][  0]LogMemory: Physical Memory: 7304.00 MB used,  9038.00 MB free, 16341.99 MB total
-[2018.02.22-18.35.53:285][  0]LogMemory: Virtual Memory: 726.59 MB used,  9038.00 MB free, 134217728.00 MB total
-[2018.02.22-18.35.53:417][  0]LogInit: Using OS detected language (ru-RU).
-[2018.02.22-18.35.53:417][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.02.22-18.35.53:419][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2018.02.22-18.35.53:419][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2018.02.22-18.35.53:731][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.22-18.35.53:902][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.22-18.35.53:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.02.22-18.35.53:942][  0]LogD3D11RHI:       11127/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.22-18.35.53:944][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.22-18.35.53:944][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.22-18.35.53:944][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.22-18.35.53:950][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.22-18.35.53:950][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.22-18.35.53:950][  0]LogWindows: EnumDisplayDevices:
-[2018.02.22-18.35.53:950][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.02.22-18.35.53:950][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.02.22-18.35.53:950][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.02.22-18.35.53:950][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.02.22-18.35.53:950][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.22-18.35.53:950][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.02.22-18.35.53:950][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.22-18.35.53:950][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.22-18.35.53:950][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.02.22-18.35.53:968][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.22-18.35.53:986][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.02.22-18.35.54:028][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/Unreal Projects/Strategy/Intermediate/Shaders/WorkingDirectory/18728/).
-[2018.02.22-18.35.54:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmotl/AppData/Local/Temp/UnrealShaderWorkingDir/F0CFB7864F20A3827F432E80195152CC/'.
-[2018.02.22-18.35.54:028][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.22-18.35.54:682][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.22-18.35.54:724][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.22-18.35.54:767][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.22-18.35.54:809][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.22-18.35.54:851][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.22-18.35.54:894][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.22-18.35.54:936][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.22-18.35.54:979][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.22-18.35.55:018][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.22-18.35.55:059][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.22-18.35.55:100][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.22-18.35.55:141][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.22-18.35.55:181][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.22-18.35.55:222][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.22-18.35.55:304][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.22-18.35.55:304][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.22-18.35.55:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.22-18.35.55:380][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.22-18.35.55:458][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.22-18.35.55:479][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.22-18.35.55:520][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.22-18.35.55:561][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.22-18.35.55:602][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.22-18.35.55:643][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.22-18.35.55:643][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.22-18.35.56:053][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.22-18.35.56:116][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.22-18.35.56:116][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.22-18.35.56:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/Strategy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.22-18.35.56:117][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.22-18.35.56:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/Strategy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.22-18.35.56:117][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.22-18.35.56:128][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.22-18.35.56:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmotl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.22-18.35.56:151][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.22-18.35.56:151][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.22-18.35.56:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.22-18.35.56:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.22-18.35.56:426][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.22-18.35.56:734][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.22-18.35.56:786][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.22-18.35.56:786][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.22-18.35.56:786][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.22-18.35.56:786][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.22-18.35.56:786][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.22-18.35.56:807][  0]LogNetVersion: Strategy , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2322236227)
-[2018.02.22-18.35.56:940][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2018.02.22-18.35.57:309][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.017614 seconds
-[2018.02.22-18.35.57:312][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.22-18.35.57:312][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.02.22-18.35.57:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.22-18.35.57:359][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.22-18.35.59:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.22-18.35.59:886][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.22-18.36.00:842][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.22-18.36.01:196][  0]SourceControl: Source control is disabled
-[2018.02.22-18.36.01:196][  0]SourceControl: Source control is disabled
-[2018.02.22-18.36.01:243][  0]SourceControl: Source control is disabled
-[2018.02.22-18.36.01:291][  0]SourceControl: Source control is disabled
-[2018.02.22-18.36.02:042][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.22-18.36.02:280][  0]LogOcInput: OculusInput pre-init called
-[2018.02.22-18.36.02:510][  0]LogEngine: Initializing Engine...
-[2018.02.22-18.36.02:512][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.22-18.36.02:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.22-18.36.02:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.22-18.36.02:810][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.22-18.36.02:815][  0]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.36.02:835][  0]LogInit: FAudioDevice initialized.
-[2018.02.22-18.36.02:917][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.22-18.36.02:931][  0]LogInit: Texture streaming: Enabled
-[2018.02.22-18.36.03:027][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.22-18.36.03:141][  0]LogInit: Transaction tracking system initialized
-[2018.02.22-18.36.03:441][  0]BlueprintLog: New page: Editor Load
-[2018.02.22-18.36.04:210][  0]LocalizationService: Localization service is disabled
-[2018.02.22-18.36.05:013][  0]LogConsoleResponse: Display: 
-[2018.02.22-18.36.05:354][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.22-18.36.05:354][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.22-18.36.05:354][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.22-18.36.05:785][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Strategy/Content/' took 0.19s
-[2018.02.22-18.36.06:412][  0]SourceControl: Source control is disabled
-[2018.02.22-18.36.06:412][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.22-18.36.06:412][  0]LightingResults: New page: Lighting Build
-[2018.02.22-18.36.06:448][  0]MapCheck: New page: Map Check
-[2018.02.22-18.36.06:448][  0]LightingResults: New page: Lighting Build
-[2018.02.22-18.36.06:608][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.02.22-18.36.06:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.22-18.36.06:619][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.22-18.36.06:658][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.72ms to complete.
-[2018.02.22-18.36.06:658][  0]LogFileHelpers: Loading map 'Template_Default' took 0.246
-[2018.02.22-18.36.06:746][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.22-18.36.06:849][  0]LogCollectionManager: Loaded 0 collections in 0.002095 seconds
-[2018.02.22-18.36.06:919][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Strategy/Saved/Collections/' took 0.01s
-[2018.02.22-18.36.06:919][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Strategy/Content/Developers/vmotl/Collections/' took 0.01s
-[2018.02.22-18.36.06:919][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Strategy/Content/Collections/' took 0.01s
-[2018.02.22-18.36.06:919][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.22-18.36.06:926][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2367 classes and 523 folders.
-[2018.02.22-18.36.06:981][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.22-18.36.07:090][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.22-18.36.07:138][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.22-18.36.07:182][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.22-18.36.07:184][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.22-18.36.07:195][  0]LogSlate: Took 0.001614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.22-18.36.07:287][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
-[2018.02.22-18.36.07:476][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.02.22-18.36.07:476][  0]LogLoad: (Engine Initialization) Total time: 22.14 seconds
-[2018.02.22-18.36.07:476][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.22-18.36.07:476][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.22-18.36.07:495][  0]LogAssetRegistry: Asset discovery search completed in 10.5784 seconds
-[2018.02.22-18.36.07:496][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.22-18.36.07:496][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2018.02.22-18.36.07:498][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.02.22-18.36.07:537][  0]LogSlate: Took 0.003625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.22-18.36.15:278][903]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.22-18.36.15:329][903]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.36.15:341][903]Cmd: MAP LOAD FILE="D:/Unreal Projects/Strategy/Content/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.22-18.36.15:341][903]LightingResults: New page: Lighting Build
-[2018.02.22-18.36.15:342][903]LoadErrors: New page: Loading map: Default.umap
-[2018.02.22-18.36.15:342][903]MapCheck: New page: Map Check
-[2018.02.22-18.36.15:342][903]LightingResults: New page: Lighting Build
-[2018.02.22-18.36.15:369][903]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.22-18.36.15:385][903]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.22-18.36.15:427][903]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.499ms to complete.
-[2018.02.22-18.36.15:427][903]LogFileHelpers: Loading map 'Default' took 0.086
-[2018.02.22-18.36.16:449][ 23]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.36.16:501][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.36.16:502][ 23]PIE: New page: PIE session: Default (Feb 22, 2018, 10:36:16 PM)
-[2018.02.22-18.36.16:502][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.36.16:504][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002382s)
-[2018.02.22-18.36.16:505][ 23]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.36.16:505][ 23]LogPlayLevel: PIE: World Init took: (0.000859s)
-[2018.02.22-18.36.16:505][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003529s)
-[2018.02.22-18.36.16:514][ 23]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.36.16:518][ 23]LogInit: FAudioDevice initialized.
-[2018.02.22-18.36.16:585][ 23]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.36.16:586][ 23]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.36.16
-[2018.02.22-18.36.16:586][ 23]LogWorld: Bringing up level for play took: 0.000437
-[2018.02.22-18.36.16:624][ 23]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.02.22-18.36.16:629][ 23]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.252
-[2018.02.22-18.36.56:856][832]Candidate modules for hot reload:
-[2018.02.22-18.36.56:856][832]  Strategy
-[2018.02.22-18.36.56:856][832]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 3894 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-18.36.56:860][832]Warning: Starting HotReload took  0.1s.
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: New page: Compilation - Feb 22, 2018, 10:37:02 PM
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: Creating makefile for hot reloading Strategy (no existing makefile)
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: MapView.cpp
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: [2/3] Link UE4Editor-Strategy-3894.dll
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: [3/3] Link UE4Editor-Strategy-3894.lib
-[2018.02.22-18.37.02:468][502]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3894.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3894.exp
-[2018.02.22-18.37.02:468][502]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3894.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3894.suppressed.exp
-[2018.02.22-18.37.02:468][502]CompilerResultsLog: Total build time: 5,44 seconds (Local executor: 1,11 seconds)
-[2018.02.22-18.37.02:468][502]LogMainFrame: MainFrame: Module compiling took 5.617 seconds
-[2018.02.22-18.37.02:518][502]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-18.37.02:519][502]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-18.37.02:598][502]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-18.37.02:598][502]Display: HotReload took  5.8s.
-[2018.02.22-18.37.05:106][803]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.37.05:113][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.37.05:113][803]PIE: New page: PIE session: Default (Feb 22, 2018, 10:37:05 PM)
-[2018.02.22-18.37.05:113][803]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.37.05:115][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002167s)
-[2018.02.22-18.37.05:116][803]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.37.05:116][803]LogPlayLevel: PIE: World Init took: (0.000575s)
-[2018.02.22-18.37.05:116][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002944s)
-[2018.02.22-18.37.05:124][803]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.37.05:129][803]LogInit: FAudioDevice initialized.
-[2018.02.22-18.37.05:158][803]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.37.05:159][803]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.37.05
-[2018.02.22-18.37.05:159][803]LogWorld: Bringing up level for play took: 0.000374
-[2018.02.22-18.37.05:160][803]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.279
-[2018.02.22-18.37.29:894][412]Candidate modules for hot reload:
-[2018.02.22-18.37.29:894][412]  Strategy
-[2018.02.22-18.37.29:894][412]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 3032 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-18.37.29:897][412]Warning: Starting HotReload took  0.0s.
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: New page: Compilation - Feb 22, 2018, 10:37:31 PM
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: MapView.cpp
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: [2/3] Link UE4Editor-Strategy-3032.dll
-[2018.02.22-18.37.31:964][578]CompilerResultsLog: [3/3] Link UE4Editor-Strategy-3032.lib
-[2018.02.22-18.37.31:964][578]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3032.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3032.exp
-[2018.02.22-18.37.31:965][578]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3032.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3032.suppressed.exp
-[2018.02.22-18.37.31:965][578]CompilerResultsLog: Total build time: 1,69 seconds (Local executor: 1,01 seconds)
-[2018.02.22-18.37.31:965][578]LogMainFrame: MainFrame: Module compiling took 2.075 seconds
-[2018.02.22-18.37.32:061][578]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-18.37.32:063][578]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-18.37.32:092][578]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-18.37.32:093][578]Display: HotReload took  2.2s.
-[2018.02.22-18.37.34:983][746]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.37.34:991][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.37.34:992][746]PIE: New page: PIE session: Default (Feb 22, 2018, 10:37:34 PM)
-[2018.02.22-18.37.34:992][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.37.34:993][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001874s)
-[2018.02.22-18.37.34:994][746]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.37.34:994][746]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.02.22-18.37.34:994][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002769s)
-[2018.02.22-18.37.35:002][746]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.37.35:007][746]LogInit: FAudioDevice initialized.
-[2018.02.22-18.37.35:035][746]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.37.35:036][746]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.37.35
-[2018.02.22-18.37.35:036][746]LogWorld: Bringing up level for play took: 0.000408
-[2018.02.22-18.37.35:038][746]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.156
-[2018.02.22-18.37.46:991][140]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2018.02.22-18.37.47:413][140]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.22-18.37.47:472][140]LogSlate: Took 0.001410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.22-18.37.48:600][255]LogSlate: Took 0.007543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.22-18.37.59:286][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPMapView" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset" SILENT=true
-[2018.02.22-18.37.59:362][462]LogSavePackage: Save=19.91ms
-[2018.02.22-18.37.59:362][462]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPMapView70D879E7460E916FFC8EB2912C01CA97.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset'
-[2018.02.22-18.37.59:364][462]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset
-[2018.02.22-18.38.00:936][639]BlueprintLog: New page: Compile BPMapView
-[2018.02.22-18.38.01:520][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPMapView" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset" SILENT=true
-[2018.02.22-18.38.01:561][681]LogSavePackage: Save=40.04ms
-[2018.02.22-18.38.01:561][681]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPMapView44DAA6344D7A48C13BFB45921C08F080.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset'
-[2018.02.22-18.38.01:562][681]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPMapView.uasset
-[2018.02.22-18.38.03:984][956]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.38.03:993][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.38.03:994][956]PIE: New page: PIE session: Default (Feb 22, 2018, 10:38:03 PM)
-[2018.02.22-18.38.03:994][956]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.38.03:996][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002033s)
-[2018.02.22-18.38.03:996][956]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.38.03:997][956]LogPlayLevel: PIE: World Init took: (0.000959s)
-[2018.02.22-18.38.03:997][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003301s)
-[2018.02.22-18.38.04:010][956]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.38.04:014][956]LogInit: FAudioDevice initialized.
-[2018.02.22-18.38.04:048][956]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.38.04:049][956]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.38.04
-[2018.02.22-18.38.04:049][956]LogWorld: Bringing up level for play took: 0.000391
-[2018.02.22-18.38.04:050][956]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.831
-[2018.02.22-18.42.14:849][632]Candidate modules for hot reload:
-[2018.02.22-18.42.14:849][632]  Strategy
-[2018.02.22-18.42.14:850][632]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 7092 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-18.42.14:853][632]Warning: Starting HotReload took  0.0s.
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: New page: Compilation - Feb 22, 2018, 10:42:24 PM
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: Parsing headers for StrategyEditor
-[2018.02.22-18.42.24:086][734]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Strategy\Strategy.uproject" "D:\Unreal Projects\Strategy\Intermediate\Build\Win64\StrategyEditor\Development\StrategyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: Reflection code generated for StrategyEditor in 6,9474297 seconds
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: MapView.gen.cpp
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: MapView.cpp
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: StrategyPawn.cpp
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: [4/5] Link UE4Editor-Strategy-7092.dll
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: [5/5] Link UE4Editor-Strategy-7092.lib
-[2018.02.22-18.42.24:086][734]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-7092.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-7092.exp
-[2018.02.22-18.42.24:086][734]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-7092.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-7092.suppressed.exp
-[2018.02.22-18.42.24:086][734]CompilerResultsLog: Total build time: 9,07 seconds (Local executor: 1,31 seconds)
-[2018.02.22-18.42.24:086][734]LogMainFrame: MainFrame: Module compiling took 9.241 seconds
-[2018.02.22-18.42.24:147][734]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-18.42.24:149][734]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-18.42.24:345][734]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-18.42.24:345][734]Display: HotReload took  9.5s.
-[2018.02.22-18.42.25:770][905]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.42.25:777][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.42.25:777][905]PIE: New page: PIE session: Default (Feb 22, 2018, 10:42:25 PM)
-[2018.02.22-18.42.25:777][905]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.42.25:779][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
-[2018.02.22-18.42.25:780][905]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.42.25:781][905]LogPlayLevel: PIE: World Init took: (0.001026s)
-[2018.02.22-18.42.25:781][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003265s)
-[2018.02.22-18.42.25:816][905]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.42.25:821][905]LogInit: FAudioDevice initialized.
-[2018.02.22-18.42.25:852][905]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.42.25:853][905]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.42.25
-[2018.02.22-18.42.25:853][905]LogWorld: Bringing up level for play took: 0.000419
-[2018.02.22-18.42.25:855][905]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.973
-[2018.02.22-18.43.19:666][249]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-18.43.20:230][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
-[2018.02.22-18.43.20:238][294]LogSavePackage: Save=5.87ms
-[2018.02.22-18.43.20:238][294]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPStrategyPawn36444B7143AE3C48D5AE899D1F85E322.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset'
-[2018.02.22-18.43.20:239][294]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset
-[2018.02.22-18.43.22:017][488]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.43.22:024][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.43.22:024][488]PIE: New page: PIE session: Default (Feb 22, 2018, 10:43:22 PM)
-[2018.02.22-18.43.22:024][488]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.43.22:026][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001766s)
-[2018.02.22-18.43.22:026][488]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.43.22:026][488]LogPlayLevel: PIE: World Init took: (0.000542s)
-[2018.02.22-18.43.22:027][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002537s)
-[2018.02.22-18.43.22:039][488]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.43.22:044][488]LogInit: FAudioDevice initialized.
-[2018.02.22-18.43.22:075][488]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.43.22:075][488]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.43.22
-[2018.02.22-18.43.22:075][488]LogWorld: Bringing up level for play took: 0.000421
-[2018.02.22-18.43.22:077][488]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.805
-[2018.02.22-18.43.39:127][394]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-18.43.39:729][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
-[2018.02.22-18.43.39:736][442]LogSavePackage: Save=5.84ms
-[2018.02.22-18.43.39:736][442]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPStrategyPawn93FEF7564F8FA7B426E9B6A3608DCBDF.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset'
-[2018.02.22-18.43.39:737][442]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset
-[2018.02.22-18.43.41:584][645]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.43.41:590][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.43.41:591][645]PIE: New page: PIE session: Default (Feb 22, 2018, 10:43:41 PM)
-[2018.02.22-18.43.41:591][645]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.43.41:593][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001862s)
-[2018.02.22-18.43.41:593][645]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.43.41:593][645]LogPlayLevel: PIE: World Init took: (0.000573s)
-[2018.02.22-18.43.41:593][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002673s)
-[2018.02.22-18.43.41:607][645]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.43.41:612][645]LogInit: FAudioDevice initialized.
-[2018.02.22-18.43.41:642][645]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.43.41:642][645]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.43.41
-[2018.02.22-18.43.41:643][645]LogWorld: Bringing up level for play took: 0.000387
-[2018.02.22-18.43.41:644][645]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.763
-[2018.02.22-18.43.55:874][343]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-18.43.55:882][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-18.43.55:882][343]PIE: New page: PIE session: Default (Feb 22, 2018, 10:43:55 PM)
-[2018.02.22-18.43.55:882][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-18.43.55:885][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002175s)
-[2018.02.22-18.43.55:885][343]LogAIModule: Creating AISystem for world Default
-[2018.02.22-18.43.55:885][343]LogPlayLevel: PIE: World Init took: (0.000763s)
-[2018.02.22-18.43.55:886][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003232s)
-[2018.02.22-18.43.55:898][343]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-18.43.55:903][343]LogInit: FAudioDevice initialized.
-[2018.02.22-18.43.55:930][343]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-18.43.55:931][343]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-20.43.55
-[2018.02.22-18.43.55:931][343]LogWorld: Bringing up level for play took: 0.000396
-[2018.02.22-18.43.55:932][343]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.949
-[2018.02.22-20.33.14:669][319]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.02.22-20.40.16:161][530]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-20.40.16:168][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-20.40.16:168][530]PIE: New page: PIE session: Default (Feb 23, 2018, 12:40:16 AM)
-[2018.02.22-20.40.16:168][530]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-20.40.16:170][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002172s)
-[2018.02.22-20.40.16:171][530]LogAIModule: Creating AISystem for world Default
-[2018.02.22-20.40.16:171][530]LogPlayLevel: PIE: World Init took: (0.000854s)
-[2018.02.22-20.40.16:171][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003298s)
-[2018.02.22-20.40.16:187][530]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-20.40.16:192][530]LogInit: FAudioDevice initialized.
-[2018.02.22-20.40.16:221][530]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-20.40.16:222][530]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-22.40.16
-[2018.02.22-20.40.16:222][530]LogWorld: Bringing up level for play took: 0.000417
-[2018.02.22-20.40.16:224][530]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.658
-[2018.02.22-20.42.55:211][318]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-20.42.55:219][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-20.42.55:219][318]PIE: New page: PIE session: Default (Feb 23, 2018, 12:42:55 AM)
-[2018.02.22-20.42.55:219][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-20.42.55:223][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003573s)
-[2018.02.22-20.42.55:223][318]LogAIModule: Creating AISystem for world Default
-[2018.02.22-20.42.55:224][318]LogPlayLevel: PIE: World Init took: (0.000894s)
-[2018.02.22-20.42.55:224][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.004927s)
-[2018.02.22-20.42.55:240][318]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-20.42.55:246][318]LogInit: FAudioDevice initialized.
-[2018.02.22-20.42.55:277][318]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-20.42.55:278][318]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-22.42.55
-[2018.02.22-20.42.55:278][318]LogWorld: Bringing up level for play took: 0.000489
-[2018.02.22-20.42.55:280][318]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.398
-[2018.02.22-20.52.50:950][685]LogHotReload: New module detected: UE4Editor-Strategy-8524.dll
-[2018.02.22-20.52.51:648][688]LogHotReload: Starting Hot-Reload from IDE
-[2018.02.22-20.52.51:852][688]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-20.52.51:855][688]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-20.52.52:095][688]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-20.52.52:099][688]Display: HotReload took  0.5s.
-[2018.02.22-20.53.05:300][809]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-20.53.05:310][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-20.53.05:311][809]PIE: New page: PIE session: Default (Feb 23, 2018, 12:53:05 AM)
-[2018.02.22-20.53.05:311][809]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-20.53.05:313][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002652s)
-[2018.02.22-20.53.05:314][809]LogAIModule: Creating AISystem for world Default
-[2018.02.22-20.53.05:314][809]LogPlayLevel: PIE: World Init took: (0.000983s)
-[2018.02.22-20.53.05:315][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.004001s)
-[2018.02.22-20.53.05:381][809]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-20.53.05:392][809]LogInit: FAudioDevice initialized.
-[2018.02.22-20.53.05:429][809]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-20.53.05:430][809]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-22.53.05
-[2018.02.22-20.53.05:431][809]LogWorld: Bringing up level for play took: 0.000777
-[2018.02.22-20.53.05:433][809]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.552
-[2018.02.22-21.18.00:874][266]LogHotReload: New module detected: UE4Editor-Strategy-8513.dll
-[2018.02.22-21.18.01:566][269]LogHotReload: Starting Hot-Reload from IDE
-[2018.02.22-21.18.01:656][269]LogClass: Could not find existing class StrategyPawn in package /Script/Strategy for HotReload, assuming new class
-[2018.02.22-21.18.01:663][269]LogHotReload: Re-instancing StrategyPawn after hot-reload.
-[2018.02.22-21.18.01:668][269]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope SKEL_BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.01:670][269]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.01:671][269]LogBlueprint: Warning: [Compiler BPStrategyPawn] [9736.33] Compile of BPStrategyPawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/BluePrints/BPStrategyPawn.BPStrategyPawn)
-[2018.02.22-21.18.01:733][269]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-21.18.01:735][269]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-21.18.01:969][269]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-21.18.01:973][269]Display: HotReload took  0.4s.
-[2018.02.22-21.18.23:496][893]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.18.23:498][893]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope SKEL_BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.23:499][893]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.23:611][893]LogBlueprint: Warning: [Compiler BPStrategyPawn] [9758.28] Compile of BPStrategyPawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 115 ms] (/Game/BluePrints/BPStrategyPawn.BPStrategyPawn)
-[2018.02.22-21.18.24:129][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
-[2018.02.22-21.18.24:169][944]LogSavePackage: Save=6.63ms
-[2018.02.22-21.18.24:169][944]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPStrategyPawn7A469DEC468BA3BFE992198F6F66262E.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset'
-[2018.02.22-21.18.24:170][944]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset
-[2018.02.22-21.18.24:694][998]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.18.24:695][998]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope SKEL_BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.24:696][998]LogBlueprint: Error: [Compiler BPStrategyPawn] Internal Compiler Error: Tried to create a property Camera in scope BPStrategyPawn_C, but another object (ObjectProperty /Script/Strategy.StrategyPawn:Camera) already already exists there.
-[2018.02.22-21.18.24:790][998]LogBlueprint: Warning: [Compiler BPStrategyPawn] [9759.45] Compile of BPStrategyPawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 96 ms] (/Game/BluePrints/BPStrategyPawn.BPStrategyPawn)
-[2018.02.22-21.18.48:333][652]LogHotReload: New module detected: UE4Editor-Strategy-604.dll
-[2018.02.22-21.18.48:690][654]LogHotReload: Starting Hot-Reload from IDE
-[2018.02.22-21.18.48:775][654]LogClass: Could not find existing class StrategyPawn in package /Script/Strategy for HotReload, assuming new class
-[2018.02.22-21.18.48:781][654]LogHotReload: Re-instancing StrategyPawn after hot-reload.
-[2018.02.22-21.18.48:933][654]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0007 seconds. Added 4 classes and 4 folders.
-[2018.02.22-21.18.48:936][654]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-21.18.49:142][654]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-21.18.49:145][654]Display: HotReload took  0.5s.
-[2018.02.22-21.18.55:121][  4]Candidate modules for hot reload:
-[2018.02.22-21.18.55:121][  4]  Strategy
-[2018.02.22-21.18.55:121][  4]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 3578 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-21.18.55:125][  4]Warning: Starting HotReload took  0.0s.
-[2018.02.22-21.19.00:162][603]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 1:19:00 AM
-[2018.02.22-21.19.00:162][603]CompilerResultsLog: Creating makefile for hot reloading Strategy (modules to compile have changed)
-[2018.02.22-21.19.00:162][603]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-21.19.00:162][603]CompilerResultsLog: Target is up to date
-[2018.02.22-21.19.00:162][603]CompilerResultsLog: Total build time: 4,85 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2018.02.22-21.19.00:162][603]LogMainFrame: MainFrame: Module compiling took 5.044 seconds
-[2018.02.22-21.19.00:365][603]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-21.19.00:365][603]Display: HotReload took  5.3s.
-[2018.02.22-21.19.02:850][840]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.19.06:470][176]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.02.22-21.19.08:848][420]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.19.17:275][334]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.19.24:285][ 57]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.19.25:132][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
-[2018.02.22-21.19.25:140][131]LogSavePackage: Save=5.98ms
-[2018.02.22-21.19.25:140][131]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPStrategyPawn5A27C793433FA07DCDF321BAA79DD342.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset'
-[2018.02.22-21.19.25:141][131]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset
-[2018.02.22-21.21.50:036][989]Candidate modules for hot reload:
-[2018.02.22-21.21.50:036][989]  Strategy
-[2018.02.22-21.21.50:036][989]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 8665 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-21.21.50:041][989]Warning: Starting HotReload took  0.0s.
-[2018.02.22-21.22.00:180][178]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 1:22:00 AM
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Parsing headers for StrategyEditor
-[2018.02.22-21.22.00:181][178]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Strategy\Strategy.uproject" "D:\Unreal Projects\Strategy\Intermediate\Build\Win64\StrategyEditor\Development\StrategyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Reflection code generated for StrategyEditor in 7,323137 seconds
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: StrategyPawn.gen.cpp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Strategy.init.gen.cpp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: StrategyPlayerController.cpp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: StrategyPawn.cpp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: [5/6] Link UE4Editor-Strategy-8665.dll
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: [6/6] Link UE4Editor-Strategy-8665.lib
-[2018.02.22-21.22.00:181][178]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-8665.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-8665.exp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-8665.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-8665.suppressed.exp
-[2018.02.22-21.22.00:181][178]CompilerResultsLog: Total build time: 9,97 seconds (Local executor: 1,82 seconds)
-[2018.02.22-21.22.00:181][178]LogMainFrame: MainFrame: Module compiling took 10.148 seconds
-[2018.02.22-21.22.00:237][178]LogClass: Could not find existing class StrategyPawn in package /Script/Strategy for HotReload, assuming new class
-[2018.02.22-21.22.00:242][178]LogHotReload: Re-instancing StrategyPawn after hot-reload.
-[2018.02.22-21.22.00:303][178]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-21.22.00:305][178]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-21.22.00:506][178]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-21.22.00:506][178]Display: HotReload took 10.5s.
-[2018.02.22-21.22.14:078][399]Candidate modules for hot reload:
-[2018.02.22-21.22.14:078][399]  Strategy
-[2018.02.22-21.22.14:078][399]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 3283 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-21.22.14:082][399]Warning: Starting HotReload took  0.0s.
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 1:22:24 AM
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: Parsing headers for StrategyEditor
-[2018.02.22-21.22.24:353][381]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\Strategy\Strategy.uproject" "D:\Unreal Projects\Strategy\Intermediate\Build\Win64\StrategyEditor\Development\StrategyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: Reflection code generated for StrategyEditor in 7,5639559 seconds
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: StrategyPlayerController.cpp
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: StrategyPawn.cpp
-[2018.02.22-21.22.24:353][381]CompilerResultsLog: Strategy.init.gen.cpp
-[2018.02.22-21.22.24:354][381]CompilerResultsLog: StrategyPawn.gen.cpp
-[2018.02.22-21.22.24:354][381]CompilerResultsLog: [5/6] Link UE4Editor-Strategy-3283.dll
-[2018.02.22-21.22.24:354][381]CompilerResultsLog: [6/6] Link UE4Editor-Strategy-3283.lib
-[2018.02.22-21.22.24:354][381]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3283.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3283.exp
-[2018.02.22-21.22.24:354][381]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3283.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-3283.suppressed.exp
-[2018.02.22-21.22.24:354][381]CompilerResultsLog: Total build time: 9,85 seconds (Local executor: 1,42 seconds)
-[2018.02.22-21.22.24:354][381]LogMainFrame: MainFrame: Module compiling took 10.281 seconds
-[2018.02.22-21.22.24:467][381]LogClass: Could not find existing class StrategyPawn in package /Script/Strategy for HotReload, assuming new class
-[2018.02.22-21.22.24:472][381]LogHotReload: Re-instancing StrategyPawn after hot-reload.
-[2018.02.22-21.22.24:545][381]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
-[2018.02.22-21.22.24:548][381]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-21.22.24:764][381]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-21.22.24:764][381]Display: HotReload took 10.7s.
-[2018.02.22-21.22.30:256][763]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.02.22-21.22.32:075][955]BlueprintLog: New page: Compile BPStrategyPawn
-[2018.02.22-21.22.32:717][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
-[2018.02.22-21.22.32:724][996]LogSavePackage: Save=5.94ms
-[2018.02.22-21.22.32:724][996]LogSavePackage: Moving 'D:/Unreal Projects/Strategy/Saved/BPStrategyPawnE08D3E9445BA881D2652D193B6FEB3EC.tmp' to 'D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset'
-[2018.02.22-21.22.32:725][996]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/Strategy/Content/BluePrints/BPStrategyPawn.uasset
-[2018.02.22-21.22.34:216][157]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-21.22.34:222][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-21.22.34:223][157]PIE: New page: PIE session: Default (Feb 23, 2018, 1:22:34 AM)
-[2018.02.22-21.22.34:223][157]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-21.22.34:226][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
-[2018.02.22-21.22.34:226][157]LogAIModule: Creating AISystem for world Default
-[2018.02.22-21.22.34:226][157]LogPlayLevel: PIE: World Init took: (0.000636s)
-[2018.02.22-21.22.34:226][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003744s)
-[2018.02.22-21.22.34:250][157]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-21.22.34:256][157]LogInit: FAudioDevice initialized.
-[2018.02.22-21.22.34:288][157]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-21.22.34:289][157]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-23.22.34
-[2018.02.22-21.22.34:289][157]LogWorld: Bringing up level for play took: 0.000482
-[2018.02.22-21.22.34:291][157]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.591
-[2018.02.22-21.22.51:028][ 55]LogRenderer: Reallocating scene render targets to support 1208x712 Format 9 NumSamples 1 (Frame:1).
-[2018.02.22-21.23.05:826][595]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-21.23.05:838][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-21.23.05:838][595]PIE: New page: PIE session: Default (Feb 23, 2018, 1:23:05 AM)
-[2018.02.22-21.23.05:838][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-21.23.05:840][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001903s)
-[2018.02.22-21.23.05:841][595]LogAIModule: Creating AISystem for world Default
-[2018.02.22-21.23.05:841][595]LogPlayLevel: PIE: World Init took: (0.000765s)
-[2018.02.22-21.23.05:841][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002982s)
-[2018.02.22-21.23.05:856][595]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-21.23.05:861][595]LogInit: FAudioDevice initialized.
-[2018.02.22-21.23.05:893][595]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-21.23.05:894][595]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.22-23.23.05
-[2018.02.22-21.23.05:894][595]LogWorld: Bringing up level for play took: 0.000427
-[2018.02.22-21.23.05:895][595]PIE: Play in editor start time for /Game/UEDPIE_0_Default 1.014
-[2018.02.22-22.09.02:560][535]Candidate modules for hot reload:
-[2018.02.22-22.09.02:560][535]  Strategy
-[2018.02.22-22.09.02:561][535]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 6850 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-22.09.02:565][535]Warning: Starting HotReload took  0.0s.
-[2018.02.22-22.09.04:237][732]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 2:09:04 AM
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: StrategyPawn.cpp
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: Error: D:\Unreal Projects\Strategy\Source\Strategy\Game\StrategyPawn.cpp(24) : error C2059: syntax error: ';'
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\Strategy\Binaries\Win64\UE4Editor-Strategy-6850.dll
-[2018.02.22-22.09.04:238][732]CompilerResultsLog: Total build time: 1,47 seconds (Local executor: 0,00 seconds)
-[2018.02.22-22.09.04:238][732]LogMainFrame: MainFrame: Module compiling took 1.684 seconds
-[2018.02.22-22.09.04:238][732]Warning: HotReload failed, recompile failed
-[2018.02.22-22.09.20:713][688]Candidate modules for hot reload:
-[2018.02.22-22.09.20:713][688]  Strategy
-[2018.02.22-22.09.20:713][688]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 2714 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/Strategy/Strategy.uproject" ]
-[2018.02.22-22.09.20:716][688]Warning: Starting HotReload took  0.0s.
-[2018.02.22-22.09.23:032][960]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 2:09:23 AM
-[2018.02.22-22.09.23:032][960]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.22-22.09.23:033][960]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.02.22-22.09.23:033][960]CompilerResultsLog: StrategyPawn.cpp
-[2018.02.22-22.09.23:033][960]CompilerResultsLog: [2/3] Link UE4Editor-Strategy-2714.dll
-[2018.02.22-22.09.23:033][960]CompilerResultsLog: [3/3] Link UE4Editor-Strategy-2714.lib
-[2018.02.22-22.09.23:033][960]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-2714.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-2714.exp
-[2018.02.22-22.09.23:033][960]CompilerResultsLog:    Creating library D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-2714.suppressed.lib and object D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-2714.suppressed.exp
-[2018.02.22-22.09.23:033][960]CompilerResultsLog: Total build time: 2,14 seconds (Local executor: 1,32 seconds)
-[2018.02.22-22.09.23:033][960]LogMainFrame: MainFrame: Module compiling took 2.323 seconds
-[2018.02.22-22.09.23:156][960]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0010 seconds. Added 4 classes and 4 folders.
-[2018.02.22-22.09.23:159][960]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.22-22.09.23:452][960]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2369 classes and 527 folders.
-[2018.02.22-22.09.23:452][960]Display: HotReload took  2.7s.
-[2018.02.22-22.09.24:396][ 73]LogTemp: Repeating last play command: Selected Viewport
-[2018.02.22-22.09.24:409][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.22-22.09.24:409][ 73]PIE: New page: PIE session: Default (Feb 23, 2018, 2:09:24 AM)
-[2018.02.22-22.09.24:409][ 73]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
-[2018.02.22-22.09.24:417][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007576s)
-[2018.02.22-22.09.24:419][ 73]LogAIModule: Creating AISystem for world Default
-[2018.02.22-22.09.24:419][ 73]LogPlayLevel: PIE: World Init took: (0.002351s)
-[2018.02.22-22.09.24:419][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.010262s)
-[2018.02.22-22.09.24:478][ 73]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.22-22.09.24:485][ 73]LogInit: FAudioDevice initialized.
-[2018.02.22-22.09.24:517][ 73]LogLoad: Game class is 'BPStrategyGameModeBase_C'
-[2018.02.22-22.09.24:519][ 73]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.23-00.09.24
-[2018.02.22-22.09.24:519][ 73]LogWorld: Bringing up level for play took: 0.000482
-[2018.02.22-22.09.24:521][ 73]PIE: Play in editor start time for /Game/UEDPIE_0_Default -0.36
+[2018.02.22-23.32.07:383][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.22-23.32.07:383][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.22-23.32.07:399][  0]LogInit: Computer: DESKTOP-HS70H9R
+[2018.02.22-23.32.07:399][  0]LogInit: User: vmotl
+[2018.02.22-23.32.07:399][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.22-23.32.07:399][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2018.02.22-23.32.07:399][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.22-23.32.07:399][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.22-23.32.07:399][  0]LogMemory: Process Physical Memory: 271.66 MB used, 271.66 MB peak
+[2018.02.22-23.32.07:399][  0]LogMemory: Process Virtual Memory: 269.82 MB used, 269.82 MB peak
+[2018.02.22-23.32.07:399][  0]LogMemory: Physical Memory: 8726.66 MB used,  7615.33 MB free, 16341.99 MB total
+[2018.02.22-23.32.07:399][  0]LogMemory: Virtual Memory: 682.28 MB used,  7615.33 MB free, 134217728.00 MB total
+[2018.02.22-23.32.07:531][  0]LogInit: Using OS detected language (ru-RU).
+[2018.02.22-23.32.07:531][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.02.22-23.32.07:533][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.02.22-23.32.07:533][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.02.22-23.32.07:814][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.22-23.32.07:997][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.22-23.32.08:034][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.02.22-23.32.08:034][  0]LogD3D11RHI:       11127/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.22-23.32.08:036][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.22-23.32.08:036][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.22-23.32.08:036][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.22-23.32.08:042][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.22-23.32.08:042][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.22-23.32.08:042][  0]LogWindows: EnumDisplayDevices:
+[2018.02.22-23.32.08:042][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.02.22-23.32.08:042][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.02.22-23.32.08:042][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.02.22-23.32.08:042][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.02.22-23.32.08:043][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.22-23.32.08:043][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.02.22-23.32.08:043][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.22-23.32.08:043][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.22-23.32.08:043][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.02.22-23.32.08:063][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.22-23.32.08:078][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.22-23.32.08:120][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/Unreal Projects/myproject/Intermediate/Shaders/WorkingDirectory/10548/).
+[2018.02.22-23.32.08:121][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmotl/AppData/Local/Temp/UnrealShaderWorkingDir/3A6C2B1A4FDBB8D531859397D7A5C79C/'.
+[2018.02.22-23.32.08:121][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.22-23.32.08:878][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.22-23.32.08:923][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.22-23.32.08:966][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.22-23.32.09:010][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.22-23.32.09:055][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.22-23.32.09:099][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.22-23.32.09:143][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.22-23.32.09:187][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.22-23.32.09:226][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.22-23.32.09:267][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.22-23.32.09:309][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.22-23.32.09:352][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.22-23.32.09:393][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.22-23.32.09:435][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.22-23.32.09:520][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.22-23.32.09:520][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.22-23.32.09:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.22-23.32.09:614][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.22-23.32.09:694][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.22-23.32.09:735][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.22-23.32.09:779][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.22-23.32.09:821][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.22-23.32.09:863][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.22-23.32.09:905][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.22-23.32.09:905][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.22-23.32.10:329][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.22-23.32.10:388][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.22-23.32.10:388][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.22-23.32.10:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/myproject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.22-23.32.10:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.22-23.32.10:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/myproject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.22-23.32.10:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.22-23.32.10:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.22-23.32.10:412][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmotl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.22-23.32.10:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.22-23.32.10:419][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.22-23.32.10:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.22-23.32.10:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.22-23.32.10:670][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.22-23.32.10:942][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.22-23.32.10:978][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.22-23.32.10:978][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.22-23.32.10:978][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.22-23.32.10:978][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.22-23.32.10:978][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.22-23.32.11:000][  0]LogNetVersion: Strategy , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2322236227)
+[2018.02.22-23.32.11:126][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.02.22-23.32.11:495][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.018966 seconds
+[2018.02.22-23.32.11:499][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.22-23.32.11:499][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.22-23.32.11:499][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.22-23.32.11:548][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.22-23.32.13:952][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.22-23.32.13:992][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.22-23.32.14:677][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.22-23.32.15:041][  0]SourceControl: Source control is disabled
+[2018.02.22-23.32.15:041][  0]SourceControl: Source control is disabled
+[2018.02.22-23.32.15:091][  0]SourceControl: Source control is disabled
+[2018.02.22-23.32.15:140][  0]SourceControl: Source control is disabled
+[2018.02.22-23.32.15:919][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.22-23.32.16:165][  0]LogOcInput: OculusInput pre-init called
+[2018.02.22-23.32.16:420][  0]LogEngine: Initializing Engine...
+[2018.02.22-23.32.16:423][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.22-23.32.16:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.22-23.32.16:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.22-23.32.16:748][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.22-23.32.16:754][  0]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.22-23.32.16:771][  0]LogInit: FAudioDevice initialized.
+[2018.02.22-23.32.16:849][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/vmotl/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.22-23.32.16:863][  0]LogInit: Texture streaming: Enabled
+[2018.02.22-23.32.16:956][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.22-23.32.16:956][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5739B158-4588-E7AC-D0BD-94B122DC3206}
+[2018.02.22-23.32.17:075][  0]LogInit: Transaction tracking system initialized
+[2018.02.22-23.32.17:362][  0]BlueprintLog: New page: Editor Load
+[2018.02.22-23.32.18:154][  0]LocalizationService: Localization service is disabled
+[2018.02.22-23.32.18:996][  0]LogConsoleResponse: Display: 
+[2018.02.22-23.32.19:142][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.22-23.32.19:142][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.22-23.32.19:142][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/myproject/Content/' took 0.01s
+[2018.02.22-23.32.19:142][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.22-23.32.20:228][  0]SourceControl: Source control is disabled
+[2018.02.22-23.32.20:228][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.22-23.32.20:228][  0]LightingResults: New page: Lighting Build
+[2018.02.22-23.32.20:265][  0]MapCheck: New page: Map Check
+[2018.02.22-23.32.20:265][  0]LightingResults: New page: Lighting Build
+[2018.02.22-23.32.20:423][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.22-23.32.20:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.22-23.32.20:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.22-23.32.20:473][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.866ms to complete.
+[2018.02.22-23.32.20:473][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2018.02.22-23.32.20:535][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.22-23.32.20:654][  0]LogCollectionManager: Loaded 0 collections in 0.002051 seconds
+[2018.02.22-23.32.20:726][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/myproject/Saved/Collections/' took 0.01s
+[2018.02.22-23.32.20:726][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/myproject/Content/Developers/vmotl/Collections/' took 0.01s
+[2018.02.22-23.32.20:727][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/myproject/Content/Collections/' took 0.01s
+[2018.02.22-23.32.20:727][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.22-23.32.20:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2367 classes and 523 folders.
+[2018.02.22-23.32.20:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.22-23.32.20:822][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.22-23.32.20:862][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.22-23.32.20:895][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.22-23.32.20:897][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.22-23.32.20:901][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.22-23.32.20:969][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.02.22-23.32.21:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.22-23.32.21:135][  0]LogLoad: (Engine Initialization) Total time: 16.20 seconds
+[2018.02.22-23.32.21:136][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.22-23.32.21:136][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.22-23.32.21:155][  0]LogAssetRegistry: Asset discovery search completed in 10.0516 seconds
+[2018.02.22-23.32.21:157][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.22-23.32.21:157][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.02.22-23.32.21:159][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.22-23.32.21:190][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.22-23.32.22:511][144]Candidate modules for hot reload:
+[2018.02.22-23.32.22:511][144]  Strategy
+[2018.02.22-23.32.22:511][144]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 5695 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/myproject/Strategy.uproject" ]
+[2018.02.22-23.32.22:514][144]Warning: Starting HotReload took  0.0s.
+[2018.02.22-23.32.23:380][245]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 3:32:23 AM
+[2018.02.22-23.32.23:380][245]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.22-23.32.23:380][245]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.22-23.32.23:380][245]CompilerResultsLog: Target is up to date
+[2018.02.22-23.32.23:381][245]CompilerResultsLog: Total build time: 0,71 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2018.02.22-23.32.23:381][245]LogMainFrame: MainFrame: Module compiling took 0.873 seconds
+[2018.02.22-23.32.23:398][245]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 527 folders.
+[2018.02.22-23.32.23:398][245]Display: HotReload took  0.9s.
+[2018.02.22-23.32.38:793][606]Candidate modules for hot reload:
+[2018.02.22-23.32.38:793][606]  Strategy
+[2018.02.22-23.32.38:793][606]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 4798 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/myproject/Strategy.uproject" ]
+[2018.02.22-23.32.38:796][606]Warning: Starting HotReload took  0.0s.
+[2018.02.22-23.32.39:680][709]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 3:32:39 AM
+[2018.02.22-23.32.39:680][709]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.22-23.32.39:680][709]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.22-23.32.39:680][709]CompilerResultsLog: Target is up to date
+[2018.02.22-23.32.39:680][709]CompilerResultsLog: Total build time: 0,72 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2018.02.22-23.32.39:680][709]LogMainFrame: MainFrame: Module compiling took 0.890 seconds
+[2018.02.22-23.32.39:697][709]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2369 classes and 527 folders.
+[2018.02.22-23.32.39:698][709]Display: HotReload took  0.9s.
+[2018.02.22-23.32.42:133][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.22-23.32.42:148][  0]LogAIModule: Creating AISystem for world Default
+[2018.02.22-23.32.42:159][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/myproject/Content/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.22-23.32.42:159][  0]LightingResults: New page: Lighting Build
+[2018.02.22-23.32.42:160][  0]LoadErrors: New page: Loading map: Default.umap
+[2018.02.22-23.32.42:160][  0]MapCheck: New page: Map Check
+[2018.02.22-23.32.42:160][  0]LightingResults: New page: Lighting Build
+[2018.02.22-23.32.42:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.22-23.32.42:184][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.22-23.32.42:223][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.007ms to complete.
+[2018.02.22-23.32.42:223][  0]LogFileHelpers: Loading map 'Default' took 0.065
+[2018.02.22-23.32.45:540][396]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.22-23.32.45:555][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.22-23.32.45:555][396]PIE: New page: PIE session: Default (Feb 23, 2018, 3:32:45 AM)
+[2018.02.22-23.32.45:555][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
+[2018.02.22-23.32.45:559][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003596s)
+[2018.02.22-23.32.45:560][396]LogAIModule: Creating AISystem for world Default
+[2018.02.22-23.32.45:560][396]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2018.02.22-23.32.45:561][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.005197s)
+[2018.02.22-23.32.45:570][396]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.22-23.32.45:575][396]LogInit: FAudioDevice initialized.
+[2018.02.22-23.32.45:632][396]LogLoad: Game class is 'BPStrategyGameModeBase_C'
+[2018.02.22-23.32.45:633][396]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.23-01.32.45
+[2018.02.22-23.32.45:633][396]LogWorld: Bringing up level for play took: 0.000414
+[2018.02.22-23.32.45:684][396]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.02.22-23.32.45:686][396]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.804
+[2018.02.22-23.34.46:017][ 27]Candidate modules for hot reload:
+[2018.02.22-23.34.46:017][ 27]  Strategy
+[2018.02.22-23.34.46:017][ 27]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Strategy -ModuleWithSuffix Strategy 850 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/myproject/Strategy.uproject" ]
+[2018.02.22-23.34.46:020][ 27]Warning: Starting HotReload took  0.0s.
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: New page: Compilation - Feb 23, 2018, 3:34:56 AM
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Parsing headers for StrategyEditor
+[2018.02.22-23.34.56:257][217]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\myproject\Strategy.uproject" "D:\Unreal Projects\myproject\Intermediate\Build\Win64\StrategyEditor\Development\StrategyEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Reflection code generated for StrategyEditor in 7,0719143 seconds
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: StrategyPlayerController.cpp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Strategy.init.gen.cpp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: StrategyPawn.gen.cpp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: StrategyPawn.cpp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: [5/6] Link UE4Editor-Strategy-850.dll
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: [6/6] Link UE4Editor-Strategy-850.lib
+[2018.02.22-23.34.56:257][217]CompilerResultsLog:    Creating library D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-850.lib and object D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-850.exp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog:    Creating library D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-850.suppressed.lib and object D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-850.suppressed.exp
+[2018.02.22-23.34.56:257][217]CompilerResultsLog: Total build time: 10,04 seconds (Local executor: 2,12 seconds)
+[2018.02.22-23.34.56:257][217]LogMainFrame: MainFrame: Module compiling took 10.245 seconds
+[2018.02.22-23.34.56:308][217]LogClass: Could not find existing class StrategyPawn in package /Script/Strategy for HotReload, assuming new class
+[2018.02.22-23.34.56:310][217]LogHotReload: Re-instancing StrategyPawn after hot-reload.
+[2018.02.22-23.34.56:347][217]LogContentBrowser: Native class hierarchy updated for 'Strategy' in 0.0006 seconds. Added 4 classes and 4 folders.
+[2018.02.22-23.34.56:348][217]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.22-23.34.56:409][217]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2369 classes and 527 folders.
+[2018.02.22-23.34.56:409][217]Display: HotReload took 10.4s.
+[2018.02.22-23.34.58:640][454]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.02.22-23.34.59:069][454]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.22-23.34.59:124][454]LogSlate: Took 0.001333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.22-23.35.02:617][827]BlueprintLog: New page: Compile BPStrategyPawn
+[2018.02.22-23.35.03:285][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
+[2018.02.22-23.35.03:295][881]LogSavePackage: Save=6.39ms
+[2018.02.22-23.35.03:295][881]LogSavePackage: Moving 'D:/Unreal Projects/myproject/Saved/BPStrategyPawn0A6772014A3DAEB5F59991A245783FD7.tmp' to 'D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset'
+[2018.02.22-23.35.03:296][881]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset
+[2018.02.22-23.35.05:007][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.22-23.35.05:016][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.22-23.35.05:016][ 66]PIE: New page: PIE session: Default (Feb 23, 2018, 3:35:05 AM)
+[2018.02.22-23.35.05:016][ 66]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
+[2018.02.22-23.35.05:019][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
+[2018.02.22-23.35.05:019][ 66]LogAIModule: Creating AISystem for world Default
+[2018.02.22-23.35.05:019][ 66]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.02.22-23.35.05:019][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.002830s)
+[2018.02.22-23.35.05:036][ 66]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.22-23.35.05:041][ 66]LogInit: FAudioDevice initialized.
+[2018.02.22-23.35.05:069][ 66]LogLoad: Game class is 'BPStrategyGameModeBase_C'
+[2018.02.22-23.35.05:070][ 66]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.23-01.35.05
+[2018.02.22-23.35.05:070][ 66]LogWorld: Bringing up level for play took: 0.000453
+[2018.02.22-23.35.05:072][ 66]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.191
+[2018.02.22-23.35.11:914][855]LogSlate: Took 0.007021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.22-23.36.35:715][541]BlueprintLog: New page: Compile BPStrategyPawn
+[2018.02.22-23.36.36:286][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPStrategyPawn" FILE="D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset" SILENT=true
+[2018.02.22-23.36.36:294][588]LogSavePackage: Save=6.37ms
+[2018.02.22-23.36.36:294][588]LogSavePackage: Moving 'D:/Unreal Projects/myproject/Saved/BPStrategyPawn0947E470473E8F6D1661F2BF257851F4.tmp' to 'D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset'
+[2018.02.22-23.36.36:295][588]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/myproject/Content/BluePrints/BPStrategyPawn.uasset
+[2018.02.22-23.36.39:537][939]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.22-23.36.39:543][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.22-23.36.39:543][939]PIE: New page: PIE session: Default (Feb 23, 2018, 3:36:39 AM)
+[2018.02.22-23.36.39:544][939]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Default
+[2018.02.22-23.36.39:546][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002696s)
+[2018.02.22-23.36.39:547][939]LogAIModule: Creating AISystem for world Default
+[2018.02.22-23.36.39:547][939]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.02.22-23.36.39:547][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003683s)
+[2018.02.22-23.36.39:562][939]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.22-23.36.39:567][939]LogInit: FAudioDevice initialized.
+[2018.02.22-23.36.39:595][939]LogLoad: Game class is 'BPStrategyGameModeBase_C'
+[2018.02.22-23.36.39:596][939]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2018.02.23-01.36.39
+[2018.02.22-23.36.39:596][939]LogWorld: Bringing up level for play took: 0.000374
+[2018.02.22-23.36.39:597][939]PIE: Play in editor start time for /Game/UEDPIE_0_Default 0.716
+[2018.02.22-23.41.31:822][888]Cmd: QUIT_EDITOR
+[2018.02.22-23.41.32:548][888]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.22-23.41.32:560][888]LogExit: Preparing to exit.
+[2018.02.22-23.41.33:171][888]LogExit: Editor shut down
+[2018.02.22-23.41.33:175][888]LogExit: Transaction tracking system shut down
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/myproject/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.22-23.41.33:340][888]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.22-23.41.33:393][888]LogExit: Object subsystem successfully closed.
+[2018.02.22-23.41.33:403][888]LogD3D11RHI: Shutdown
+[2018.02.22-23.41.33:403][888]LogD3D11RHI: CleanupD3DDevice
+[2018.02.22-23.41.33:405][888]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module BlueprintGraph (557)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module Strategy (555)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.02.22-23.41.33:418][888]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.02.22-23.41.33:418][888]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.02.22-23.41.33:419][888]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/myproject/Content/Collections/' was aborted.
+[2018.02.22-23.41.33:419][888]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/myproject/Content/Developers/vmotl/Collections/' was aborted.
+[2018.02.22-23.41.33:419][888]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/myproject/Saved/Collections/' was aborted.
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.22-23.41.33:419][888]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.22-23.41.33:420][888]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.22-23.41.33:593][888]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.22-23.41.33:594][888]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.22-23.41.33:595][888]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.22-23.41.33:650][888]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.22-23.41.33:652][888]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.22-23.41.33:652][888]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.22-23.41.33:652][888]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.22-23.41.33:660][888]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.22-23.41.33:662][888]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.22-23.41.33:662][888]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.22-23.41.33:662][888]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.22-23.41.33:663][888]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.22-23.41.33:664][888]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.22-23.41.33:664][888]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.02.22-23.41.33:759][888]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.02.22-23.41.33:760][888]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.02.22-23.41.33:761][888]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.02.22-23.41.33:761][888]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.02.22-23.41.33:762][888]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.02.22-23.41.33:762][888]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.02.22-23.41.33:762][888]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.02.22-23.41.33:762][888]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/myproject/Binaries/Win64' was aborted.
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.22-23.41.33:763][888]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.22-23.41.33:864][888]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.22-23.41.34:047][888]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.22-23.41.34:047][888]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.22-23.41.34:047][888]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.22-23.41.34:047][888]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.22-23.41.34:048][888]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.22-23.41.34:048][888]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.22-23.41.34:049][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.22-23.41.34:049][888]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.22-23.41.34:049][888]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.22-23.41.34:049][888]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.22-23.41.34:051][888]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.22-23.41.34:057][888]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.22-23.41.34:058][888]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.22-23.41.34:058][888]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.22-23.41.34:058][888]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.22-23.41.34:058][888]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.22-23.41.34:058][888]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.22-23.41.34:061][888]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.22-23.41.34:061][888]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.22-23.41.34:061][888]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.22-23.41.34:061][888]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.22-23.41.34:062][888]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.22-23.41.34:062][888]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.22-23.41.34:062][888]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.22-23.41.34:062][888]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.22-23.41.34:063][888]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.22-23.41.34:063][888]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.22-23.41.34:063][888]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.22-23.41.34:063][888]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.22-23.41.34:063][888]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.22-23.41.34:064][888]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.22-23.41.34:064][888]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.22-23.41.34:064][888]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.22-23.41.34:064][888]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.22-23.41.34:085][888]LogDerivedDataCache: Shutdown
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.22-23.41.34:085][888]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.22-23.41.34:086][888]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.22-23.41.34:086][888]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.22-23.41.34:086][888]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B92841EA8-453E-772F-A4AC-B9BE03E76EB1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f8a93f4b4816c0f14e3c6290803b3d66%7C43f034f64f7141af842eb9583181705b%7C71bd2ae3-12a7-4899-bbc5-2808ff9e05ff&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.22-23.41.34:103][888]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.22-23.41.34:104][888]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.22-23.41.34:104][888]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.22-23.41.34:104][888]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.22-23.41.34:104][888]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.22-23.41.34:109][888]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.22-23.41.34:109][888]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.22-23.41.34:109][888]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.22-23.41.34:110][888]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.22-23.41.34:112][888]LogExit: Exiting.
+[2018.02.22-23.41.34:120][888]Log file closed, 02/23/18 01:41:34

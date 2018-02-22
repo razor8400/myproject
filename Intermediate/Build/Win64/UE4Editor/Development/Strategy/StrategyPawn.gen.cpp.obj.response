@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I "D:\Unreal Projects\Strategy\Source"
-/I "D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Inc\Strategy"
-/I "D:\Unreal Projects\Strategy\Source\Strategy"
+/I "D:\Unreal Projects\myproject\Source"
+/I "D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Inc\Strategy"
+/I "D:\Unreal Projects\myproject\Source\Strategy"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Inc\Strategy\StrategyPawn.gen.cpp"
-/FI"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Definitions.Strategy.h"
-/Fo"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPawn.gen.cpp.obj"
+"D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Inc\Strategy\StrategyPawn.gen.cpp"
+/FI"D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Definitions.Strategy.h"
+/Fo"D:\Unreal Projects\myproject\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPawn.gen.cpp.obj"
 /TP
 /GR-
 /W4

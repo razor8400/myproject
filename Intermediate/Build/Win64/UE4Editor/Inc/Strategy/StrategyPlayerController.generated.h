@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STRATEGY_StrategyPlayerController_generated_h
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS_NO_PURE_DECLS \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStrategyPlayerController(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyPlayerController(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAStrategyPlayerController(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyPlayerController(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_STANDARD_CONSTRUCTORS \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStrategyPlayerController) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_ENHANCED_CONSTRUCTORS \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,32 +61,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStrategyPlayerController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStrategyPlayerController)
 
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_14_PROLOG
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_GENERATED_BODY_LEGACY \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_14_PROLOG
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_STANDARD_CONSTRUCTORS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_GENERATED_BODY \
+#define myproject_Source_Strategy_Game_StrategyPlayerController_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS_NO_PURE_DECLS \
-	Strategy_Source_Strategy_Game_StrategyPlayerController_h_17_ENHANCED_CONSTRUCTORS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_INCLASS_NO_PURE_DECLS \
+	myproject_Source_Strategy_Game_StrategyPlayerController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Strategy_Source_Strategy_Game_StrategyPlayerController_h
+#define CURRENT_FILE_ID myproject_Source_Strategy_Game_StrategyPlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
