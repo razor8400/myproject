@@ -8,22 +8,25 @@
 #include <memory>
 #include <algorithm>
 
-struct TouchInfo
-{
-	FVector2D Location;
-	FVector2D PrevLocation;
-
-	TouchInfo(const FVector2D& location, const FVector2D& prevLocation) : Location(location), PrevLocation(prevLocation)
-	{
-
-	}
-
-	FVector2D Delta() const { return Location - PrevLocation; }
-};
-
-typedef std::shared_ptr<TouchInfo> TouchPtr;
-
 static float VectorLenght(const FVector2D& v2)
 {
 	return sqrt(v2.X * v2.X + v2.Y * v2.Y);
 }
+
+UENUM(BlueprintType)
+enum class BuildingType : uint8
+{
+	Unknown UMETA(DisplayName = "Unknown"),
+	TownHall UMETA(DisplayName = "TownHall"),
+	Tower UMETA(DisplayName = "Tower")
+};
+
+#define PROPERTY_HANDLER(Event, Type, PropertyName, Function) \
+if (Event.Property != nullptr && (Event.Property->GetFName() == GET_MEMBER_NAME_CHECKED(Type, PropertyName))) \
+	Function();
+
+#define LOG(MESSAGE) \
+UE_LOG(LogTemp, Warning, TEXT(MESSAGE));
+
+#define LOG_FORMAT(MESSAGE, ...) \
+UE_LOG(LogTemp, Warning, TEXT(MESSAGE),  __VA_ARGS__);

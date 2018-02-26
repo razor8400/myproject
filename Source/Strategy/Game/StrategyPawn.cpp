@@ -2,10 +2,12 @@
 
 #include "StrategyPawn.h"
 #include "View/MapView.h"
-#include "Engine/World.h"
 
-//#include "Engine/SpringArmComonent.h"
+#include "Engine/World.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+
+#include "Controller/CameraZoomController.h"
 
 #include "Strategy.h"
 
@@ -24,13 +26,22 @@ void AStrategyPawn::BeginPlay()
 	if (MapClass)
 		Map = GetWorld()->SpawnActor<AMapView>(MapClass, FActorSpawnParameters());
 
-	CameraComponent = Cast<UCameraComponent>(GetComponentByClass(UCameraComponent::StaticClass()));
+	ZoomController = FindComponentByClass<UCameraZoomController>();
+
+	if (ZoomController)
+		ZoomController->Setup(FindComponentByClass<UCameraComponent>(), FindComponentByClass<USpringArmComponent>());
 }
 
 // Called every frame
 void AStrategyPawn::Tick(float DeltaTime)
 {
+	Super::Tick(DeltaTime);
+}
 
+template<class T>
+inline T* AStrategyPawn::FindComponentByClass() const
+{
+	return Cast<T>(GetComponentByClass(T::StaticClass()));
 }
 
 void AStrategyPawn::OnTouchBegan(const TouchPtr& touch)
@@ -49,7 +60,14 @@ void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
 
 	if (player->IsInputKeyDown(EKeys::LeftAlt))
 	{
+		if (ZoomController)
+		{
+			auto last = VectorLenght(touch->PrevLocation);
+			auto current = VectorLenght(touch->Location);
+			auto delta = last - current;
 
+			ZoomController->ZoomCamera(delta);
+		}
 	}
 	else
 	{

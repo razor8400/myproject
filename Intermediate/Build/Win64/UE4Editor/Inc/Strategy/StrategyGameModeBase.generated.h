@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STRATEGY_StrategyGameModeBase_generated_h
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStrategyGameModeBase(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyGameModeBase(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAStrategyGameModeBase(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyGameModeBase(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStrategyGameModeBase) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,32 +61,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStrategyGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStrategyGameModeBase)
 
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_12_PROLOG
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_12_PROLOG
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_GENERATED_BODY \
+#define Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	myproject_Source_Strategy_Game_StrategyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	Strategy_Source_Strategy_Game_StrategyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID myproject_Source_Strategy_Game_StrategyGameModeBase_h
+#define CURRENT_FILE_ID Strategy_Source_Strategy_Game_StrategyGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

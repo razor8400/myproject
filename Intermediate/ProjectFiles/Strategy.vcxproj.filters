@@ -1,70 +1,217 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Strategy.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{80CED1E1-E583-4E24-AD47-5BE3C8154721}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Strategy.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\StrategyEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{F79318C1-D703-4D0E-A8FE-F604A367B2BE}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Strategy">
-			<UniqueIdentifier>{5110AA85-A9A4-487E-B4FC-1AD57D5DFA8C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Strategy\Strategy.Build.cs">
-			<Filter>Source\Strategy</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Strategy\Strategy.cpp">
-			<Filter>Source\Strategy</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Strategy\Strategy.h">
-			<Filter>Source\Strategy</Filter>
-		</ClInclude >
-		<Filter Include="Source\Strategy\Game">
-			<UniqueIdentifier>{9E1EEF92-1C7C-4C54-AAB5-B9EA34B2C5F5}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Strategy\Game\StrategyGameModeBase.cpp">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Strategy\Game\StrategyGameModeBase.h">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Strategy\Game\StrategyPawn.cpp">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Strategy\Game\StrategyPawn.h">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Strategy\Game\StrategyPlayerController.cpp">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Strategy\Game\StrategyPlayerController.h">
-			<Filter>Source\Strategy\Game</Filter>
-		</ClInclude >
-		<Filter Include="Source\Strategy\View">
-			<UniqueIdentifier>{8DD043FD-DD4D-4BF4-99D4-B8623445FD85}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Strategy\View\MapView.cpp">
-			<Filter>Source\Strategy\View</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Strategy\View\MapView.h">
-			<Filter>Source\Strategy\View</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Strategy.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7F696636-4AEA-4E46-AAC1-CC870E2D83BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\StrategyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6B781E81-39E9-4D8F-8AD5-F46129CDC0FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Strategy">
+      <UniqueIdentifier>{6FDBECE0-B8D8-407E-8817-4F0CC1556CFF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\Strategy.Build.cs">
+      <Filter>Source\Strategy</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Strategy\Strategy.cpp">
+      <Filter>Source\Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Strategy.h">
+      <Filter>Source\Strategy</Filter>
+    </ClInclude>
+    <Filter Include="Source\Strategy\Components">
+      <UniqueIdentifier>{FA087775-E8CE-4797-96A7-FB7385B2AD8A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Strategy\Components\Attackable.cpp">
+      <Filter>Source\Strategy\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Components\Attackable.h">
+      <Filter>Source\Strategy\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Strategy\Components\DamageDealer.cpp">
+      <Filter>Source\Strategy\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Components\DamageDealer.h">
+      <Filter>Source\Strategy\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\Strategy\Controller">
+      <UniqueIdentifier>{C9F2E74F-AE0C-4F74-9C25-8755BFC0D0E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Strategy\Controller\CameraZoomController.cpp">
+      <Filter>Source\Strategy\Controller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Controller\CameraZoomController.h">
+      <Filter>Source\Strategy\Controller</Filter>
+    </ClInclude>
+    <Filter Include="Source\Strategy\Game">
+      <UniqueIdentifier>{CF51353A-4FC4-4195-86E0-CBCA8AC7934D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Strategy\Game\StrategyGameModeBase.cpp">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Game\StrategyGameModeBase.h">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Strategy\Game\StrategyPawn.cpp">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Game\StrategyPawn.h">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Strategy\Game\StrategyPlayerController.cpp">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\Game\StrategyPlayerController.h">
+      <Filter>Source\Strategy\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Strategy\HUD">
+      <UniqueIdentifier>{44ACF4F2-A082-4725-B8B5-6897730C1EA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Strategy\Interface">
+      <UniqueIdentifier>{3AE37BF6-7E9B-4F93-BA1A-240F61C2599C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Strategy\Interface\Serializable.h">
+      <Filter>Source\Strategy\Interface</Filter>
+    </ClInclude>
+    <Filter Include="Source\Strategy\nlohmann">
+      <UniqueIdentifier>{5EF06F69-8CB1-4840-AAD2-B10AC11732C5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\adl_serializer.hpp">
+      <Filter>Source\Strategy\nlohmann</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\json.hpp">
+      <Filter>Source\Strategy\nlohmann</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\json_fwd.hpp">
+      <Filter>Source\Strategy\nlohmann</Filter>
+    </None>
+    <Filter Include="Source\Strategy\nlohmann\detail">
+      <UniqueIdentifier>{24299003-2C54-4E41-B108-87A92BA60CEE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\exceptions.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\json_pointer.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\json_ref.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\macro_scope.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\macro_unscope.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\meta.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\value_t.hpp">
+      <Filter>Source\Strategy\nlohmann\detail</Filter>
+    </None>
+    <Filter Include="Source\Strategy\nlohmann\detail\conversions">
+      <UniqueIdentifier>{0C46D0A8-D7DA-4FE4-BE3B-3C5FC1D60351}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\conversions\from_json.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\conversions</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\conversions\to_chars.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\conversions</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\conversions\to_json.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\conversions</Filter>
+    </None>
+    <Filter Include="Source\Strategy\nlohmann\detail\input">
+      <UniqueIdentifier>{06EDE5E3-AA04-4F91-B3CD-4B4D523E2BE2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\input\binary_reader.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\input</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\input\input_adapters.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\input</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\input\lexer.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\input</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\input\parser.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\input</Filter>
+    </None>
+    <Filter Include="Source\Strategy\nlohmann\detail\iterators">
+      <UniqueIdentifier>{25170C2B-2AB1-4241-9C49-A32574F12728}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\iterators\internal_iterator.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\iterators</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\iterators\iteration_proxy.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\iterators</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\iterators\iter_impl.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\iterators</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\iterators\json_reverse_iterator.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\iterators</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\iterators\primitive_iterator.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\iterators</Filter>
+    </None>
+    <Filter Include="Source\Strategy\nlohmann\detail\output">
+      <UniqueIdentifier>{DFFE8584-DA2A-4BE6-9CC6-337A8FAD130F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\output\binary_writer.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\output</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\output\output_adapters.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\output</Filter>
+    </None>
+    <None Include="..\..\Source\Strategy\nlohmann\detail\output\serializer.hpp">
+      <Filter>Source\Strategy\nlohmann\detail\output</Filter>
+    </None>
+    <Filter Include="Source\Strategy\View">
+      <UniqueIdentifier>{6704B160-42E3-424F-AA6E-227B042D744F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Strategy\View\BuildingView.cpp">
+      <Filter>Source\Strategy\View</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\View\BuildingView.h">
+      <Filter>Source\Strategy\View</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Strategy\View\MapView.cpp">
+      <Filter>Source\Strategy\View</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Strategy\View\MapView.h">
+      <Filter>Source\Strategy\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Strategy\HUD\MainHud.h">
+      <Filter>Source\Strategy\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Strategy\HUD\Shop.h">
+      <Filter>Source\Strategy\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Strategy\HUD\MainHud.cpp">
+      <Filter>Source\Strategy\HUD</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

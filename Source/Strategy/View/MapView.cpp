@@ -52,3 +52,13 @@ FVector2D AMapView::GetMapSize() const
 	return MapSize * TileSize;
 }
 
+FVector AMapView::ConvertTileToWorld(const FVector2D& Tile)
+{
+	auto x = Tile.Y * TileSize.Y;
+	auto y = Tile.X * TileSize.X;
+	
+	auto size = GetMapSize() / 2;
+
+	return FVector(x - size.Y, y - size.X, 0);
+}
+

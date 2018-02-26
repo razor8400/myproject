@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Strategy-9430.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Strategy.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Attackable.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\DamageDealer.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\CameraZoomController.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyGameModeBase.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPawn.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPlayerController.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\MainHud.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\BuildingView.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\MapView.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Attackable.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\BuildingView.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\CameraZoomController.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\DamageDealer.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\MainHud.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\MapView.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Strategy.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\Strategy.init.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPawn.gen.cpp.obj"
+"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\Strategy\StrategyPlayerController.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Strategy\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal Projects\Strategy\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Strategy-9430.lib"

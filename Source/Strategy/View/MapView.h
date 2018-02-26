@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "MapView.generated.h"
 
+class ABuildingView;
+
 UCLASS()
 class STRATEGY_API AMapView : public AActor
 {
@@ -14,7 +16,7 @@ public:
 	// Sets default values for this actor's properties
 	AMapView();
 
-	void ScrollMap(const FVector2D& delta);
+	void ScrollMap(const FVector2D& Delta);
 protected:
 	// Called when the game starts or when spawned
 	void BeginPlay() override;
@@ -22,6 +24,7 @@ public:
 	// Called every frame
 	void Tick(float DeltaTime) override;
 	FVector2D GetMapSize() const;
+	FVector ConvertTileToWorld(const FVector2D& Tile);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D TileSize;
@@ -31,6 +34,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ScrollSpeed = 10.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<ABuildingView*> Buildings;
 
 	FVector2D ScrollVelocity;
 };

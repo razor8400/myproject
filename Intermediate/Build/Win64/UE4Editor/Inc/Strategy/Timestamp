@@ -1,4 +1,11 @@
-D:\Unreal Projects\myproject\Source\Strategy\Game\StrategyGameModeBase.h
-D:\Unreal Projects\myproject\Source\Strategy\Game\StrategyPawn.h
-D:\Unreal Projects\myproject\Source\Strategy\Game\StrategyPlayerController.h
-D:\Unreal Projects\myproject\Source\Strategy\View\MapView.h
+D:\Unreal Projects\Strategy\Source\Strategy\Components\Attackable.h
+D:\Unreal Projects\Strategy\Source\Strategy\Components\DamageDealer.h
+D:\Unreal Projects\Strategy\Source\Strategy\Controller\CameraZoomController.h
+D:\Unreal Projects\Strategy\Source\Strategy\Game\StrategyGameModeBase.h
+D:\Unreal Projects\Strategy\Source\Strategy\Game\StrategyPawn.h
+D:\Unreal Projects\Strategy\Source\Strategy\Game\StrategyPlayerController.h
+D:\Unreal Projects\Strategy\Source\Strategy\HUD\MainHud.h
+D:\Unreal Projects\Strategy\Source\Strategy\HUD\Shop.h
+D:\Unreal Projects\Strategy\Source\Strategy\View\BuildingView.h
+D:\Unreal Projects\Strategy\Source\Strategy\View\MapView.h
+D:\Unreal Projects\Strategy\Source\Strategy\Strategy.h

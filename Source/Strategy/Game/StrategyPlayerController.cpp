@@ -61,7 +61,7 @@ void AStrategyPlayerController::OnMouseUp()
 
 FVector2D AStrategyPlayerController::GetMouseLocation() const
 {
-	float x, y;
+	float x = 0, y = 0;
 	GetMousePosition(x, y);
 
 	return FVector2D(x, y);

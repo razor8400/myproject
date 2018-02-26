@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeStrategyPawn() {}
 	STRATEGY_API UClass* Z_Construct_UClass_AStrategyPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_Strategy();
-	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	STRATEGY_API UClass* Z_Construct_UClass_UCameraZoomController_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	STRATEGY_API UClass* Z_Construct_UClass_AMapView_NoRegister();
 // End Cross Module References
@@ -45,27 +45,13 @@ void EmptyLinkFunctionForGeneratedCodeStrategyPawn() {}
 			};
 #endif
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxCameraFow_MetaData[] = {
-				{ "Category", "StrategyPawn" },
-				{ "ModuleRelativePath", "Game/StrategyPawn.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxCameraFow = { UE4CodeGen_Private::EPropertyClass::Float, "MaxCameraFow", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AStrategyPawn, MaxCameraFow), METADATA_PARAMS(NewProp_MaxCameraFow_MetaData, ARRAY_COUNT(NewProp_MaxCameraFow_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinCameraFow_MetaData[] = {
-				{ "Category", "StrategyPawn" },
-				{ "ModuleRelativePath", "Game/StrategyPawn.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinCameraFow = { UE4CodeGen_Private::EPropertyClass::Float, "MinCameraFow", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AStrategyPawn, MinCameraFow), METADATA_PARAMS(NewProp_MinCameraFow_MetaData, ARRAY_COUNT(NewProp_MinCameraFow_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComponent_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ZoomController_MetaData[] = {
 				{ "Category", "StrategyPawn" },
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "Game/StrategyPawn.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AStrategyPawn, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComponent_MetaData, ARRAY_COUNT(NewProp_CameraComponent_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ZoomController = { UE4CodeGen_Private::EPropertyClass::Object, "ZoomController", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AStrategyPawn, ZoomController), Z_Construct_UClass_UCameraZoomController_NoRegister, METADATA_PARAMS(NewProp_ZoomController_MetaData, ARRAY_COUNT(NewProp_ZoomController_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MapClass_MetaData[] = {
 				{ "Category", "StrategyPawn" },
@@ -74,9 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeStrategyPawn() {}
 #endif
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_MapClass = { UE4CodeGen_Private::EPropertyClass::Class, "MapClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000005, 1, nullptr, STRUCT_OFFSET(AStrategyPawn, MapClass), Z_Construct_UClass_AMapView_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_MapClass_MetaData, ARRAY_COUNT(NewProp_MapClass_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxCameraFow,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MinCameraFow,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CameraComponent,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ZoomController,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MapClass,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -97,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeStrategyPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStrategyPawn, 4150135308);
+	IMPLEMENT_CLASS(AStrategyPawn, 2060274847);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AStrategyPawn(Z_Construct_UClass_AStrategyPawn, &AStrategyPawn::StaticClass, TEXT("/Script/Strategy"), TEXT("AStrategyPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AStrategyPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

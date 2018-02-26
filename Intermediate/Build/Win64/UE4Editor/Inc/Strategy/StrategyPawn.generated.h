@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STRATEGY_StrategyPawn_generated_h
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_RPC_WRAPPERS
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_INCLASS_NO_PURE_DECLS \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_RPC_WRAPPERS
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStrategyPawn(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyPawn(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_INCLASS \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAStrategyPawn(); \
 	friend STRATEGY_API class UClass* Z_Construct_UClass_AStrategyPawn(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_STANDARD_CONSTRUCTORS \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStrategyPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStrategyPawn) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_ENHANCED_CONSTRUCTORS \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStrategyPawn(AStrategyPawn&&); \
@@ -59,32 +59,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStrategyPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStrategyPawn)
 
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_PRIVATE_PROPERTY_OFFSET
-#define myproject_Source_Strategy_Game_StrategyPawn_h_13_PROLOG
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_GENERATED_BODY_LEGACY \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_PRIVATE_PROPERTY_OFFSET
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_14_PROLOG
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_PRIVATE_PROPERTY_OFFSET \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_RPC_WRAPPERS \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_INCLASS \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_STANDARD_CONSTRUCTORS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_PRIVATE_PROPERTY_OFFSET \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_RPC_WRAPPERS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_INCLASS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define myproject_Source_Strategy_Game_StrategyPawn_h_16_GENERATED_BODY \
+#define Strategy_Source_Strategy_Game_StrategyPawn_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_PRIVATE_PROPERTY_OFFSET \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_INCLASS_NO_PURE_DECLS \
-	myproject_Source_Strategy_Game_StrategyPawn_h_16_ENHANCED_CONSTRUCTORS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_PRIVATE_PROPERTY_OFFSET \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_INCLASS_NO_PURE_DECLS \
+	Strategy_Source_Strategy_Game_StrategyPawn_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID myproject_Source_Strategy_Game_StrategyPawn_h
+#define CURRENT_FILE_ID Strategy_Source_Strategy_Game_StrategyPawn_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

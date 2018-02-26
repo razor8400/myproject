@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMapView() {}
 	STRATEGY_API UClass* Z_Construct_UClass_AMapView();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Strategy();
+	STRATEGY_API UClass* Z_Construct_UClass_ABuildingView_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 // End Cross Module References
 	void AMapView::StaticRegisterNativesAMapView()
@@ -42,6 +43,14 @@ void EmptyLinkFunctionForGeneratedCodeMapView() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Buildings_MetaData[] = {
+				{ "Category", "MapView" },
+				{ "ModuleRelativePath", "View/MapView.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Buildings = { UE4CodeGen_Private::EPropertyClass::Array, "Buildings", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AMapView, Buildings), METADATA_PARAMS(NewProp_Buildings_MetaData, ARRAY_COUNT(NewProp_Buildings_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Buildings_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "Buildings", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_ABuildingView_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScrollSpeed_MetaData[] = {
 				{ "Category", "MapView" },
 				{ "ModuleRelativePath", "View/MapView.h" },
@@ -63,6 +72,8 @@ void EmptyLinkFunctionForGeneratedCodeMapView() {}
 #endif
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_TileSize = { UE4CodeGen_Private::EPropertyClass::Struct, "TileSize", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AMapView, TileSize), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(NewProp_TileSize_MetaData, ARRAY_COUNT(NewProp_TileSize_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Buildings,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Buildings_Inner,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ScrollSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MapSize,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TileSize,
@@ -85,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeMapView() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMapView, 3858096677);
+	IMPLEMENT_CLASS(AMapView, 3234119069);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMapView(Z_Construct_UClass_AMapView, &AMapView::StaticClass, TEXT("/Script/Strategy"), TEXT("AMapView"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMapView);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
