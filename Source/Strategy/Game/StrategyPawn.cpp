@@ -5,9 +5,9 @@
 
 #include "Engine/World.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "Camera/CameraComponent.h"
 
-#include "Controller/CameraZoomController.h"
+#include "Camera/CameraComponent.h"
+#include "Utils/CameraZoomHelper.h"
 
 #include "Strategy.h"
 
@@ -26,10 +26,13 @@ void AStrategyPawn::BeginPlay()
 	if (MapClass)
 		Map = GetWorld()->SpawnActor<AMapView>(MapClass);
 
-	ZoomController = FindComponentByClass<UCameraZoomController>();
+    ZoomController = Cast<UCameraZoomHelper>(GetComponentByClass(UCameraZoomHelper::StaticClass()));
 
 	if (ZoomController)
-		ZoomController->Setup(FindComponentByClass<UCameraComponent>(), FindComponentByClass<USpringArmComponent>());
+    {
+        
+    }
+		//ZoomController->Setup(FindComponentByClass<UCameraComponent>(), FindComponentByClass<USpringArmComponent>());
 }
 
 // Called every frame
@@ -38,23 +41,17 @@ void AStrategyPawn::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-template<class T>
-inline T* AStrategyPawn::FindComponentByClass() const
-{
-	return Cast<T>(GetComponentByClass(T::StaticClass()));
-}
-
-void AStrategyPawn::OnTouchBegan(const TouchPtr& touch)
+void AStrategyPawn::OnTouchBegan(const TouchInfo& touch)
 {
 
 }
 
-void AStrategyPawn::OnTouchEnded(const TouchPtr& touch)
+void AStrategyPawn::OnTouchEnded(const TouchInfo& touch)
 {
 
 }
 
-void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
+void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 {
 	auto player = GetWorld()->GetFirstPlayerController();
 
@@ -62,8 +59,8 @@ void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
 	{
 		if (ZoomController)
 		{
-			auto last = VectorLenght(touch->PrevLocation);
-			auto current = VectorLenght(touch->Location);
+			auto last = VectorLenght(touch.PrevLocation);
+			auto current = VectorLenght(touch.Location);
 			auto delta = last - current;
 
 			ZoomController->ZoomCamera(delta);
@@ -72,6 +69,6 @@ void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
 	else
 	{
 		if (Map)
-			Map->ScrollMap(touch->Delta());
+			Map->ScrollMap(touch.Delta());
 	}
 }

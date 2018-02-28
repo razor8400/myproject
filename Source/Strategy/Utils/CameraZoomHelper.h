@@ -4,25 +4,24 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "CameraZoomController.generated.h"
+#include "CameraZoomHelper.generated.h"
 
 class UCameraComponent;
 class USpringArmComponent;
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class STRATEGY_API UCameraZoomController : public UActorComponent
+class STRATEGY_API UCameraZoomHelper : public UActorComponent
 {
 	GENERATED_BODY()
 public:	
 	// Sets default values for this component's properties
-	UCameraZoomController();
+	UCameraZoomHelper();
 protected:
 	// Called when the game starts
 	void BeginPlay() override;	
 	// Called every frame
 	void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 public:
-	void Setup(UCameraComponent* Camera, USpringArmComponent* SpringArm);
 	void ZoomCamera(float value);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -36,9 +35,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxCameraDistance = 2000;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    UCameraComponent* CameraComponent;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    USpringArmComponent* SpringArmComponent;
 private:
-	UCameraComponent* CameraComponent = nullptr;
-	USpringArmComponent* SpringArmComponent = nullptr;
-
 	float CameraZoomValue = 0;
 };

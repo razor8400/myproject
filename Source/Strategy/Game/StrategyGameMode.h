@@ -3,18 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "ObjectsProvider.generated.h"
+#include "GameFramework/GameModeBase.h"
+#include "StrategyGameMode.generated.h"
+
+/**
+ * 
+ */
 
 class ABuildingView;
 
 UCLASS()
-class STRATEGY_API AObjectsProvider : public AActor
+class STRATEGY_API AStrategyGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-public:	
-	// Sets default values for this actor's properties
-	AObjectsProvider();
+public:
+	void BeginPlay() override;
 public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     TArray<TSubclassOf<ABuildingView>> Buildings;

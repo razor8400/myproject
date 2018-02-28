@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "CameraZoomController.h"
+#include "CameraZoomHelper.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Strategy.h"
@@ -10,19 +10,13 @@ static float ZOOM_FACTOR = 0.9f;
 static float ZOOM_SPEED = 10.0f;
 
 // Sets default values for this component's properties
-UCameraZoomController::UCameraZoomController()
+UCameraZoomHelper::UCameraZoomHelper()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 }
 
-// Called when the game starts
-void UCameraZoomController::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
 // Called every frame
-void UCameraZoomController::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UCameraZoomHelper::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
@@ -38,13 +32,7 @@ void UCameraZoomController::TickComponent(float DeltaTime, ELevelTick TickType, 
 	}
 }
 
-void UCameraZoomController::Setup(UCameraComponent* Camera, USpringArmComponent* SpringArm)
-{
-	CameraComponent = Camera;
-	SpringArmComponent = SpringArm;
-}
-
-void UCameraZoomController::ZoomCamera(float value)
+void UCameraZoomHelper::ZoomCamera(float value)
 {
 	CameraZoomValue += value;
 }

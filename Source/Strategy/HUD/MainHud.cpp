@@ -10,6 +10,7 @@ void AMainHud::BeginPlay()
 	if (ShopClass)
 	{
 		Shop = CreateWidget<UShop>(GetWorld(), ShopClass);
+        Shop->LoadContent();
 		Shop->AddToViewport();
 	}
 }

@@ -3,13 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Strategy.h"
-#include "Controller/StrategyPlayerController.h"
+#include "Input/TouchInfo.h"
 #include "GameFramework/Pawn.h"
 #include "StrategyPawn.generated.h"
 
 class AMapView;
-class UCameraZoomController;
+class UCameraZoomHelper;
 
 UCLASS()
 class STRATEGY_API AStrategyPawn : public APawn
@@ -21,20 +20,19 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	void BeginPlay() override;
-	template<class T> T* FindComponentByClass() const;
 public:	
 	// Called every frame
 	void Tick(float DeltaTime) override;
 
-	void OnTouchBegan(const TouchPtr& touch);
-	void OnTouchEnded(const TouchPtr& touch);
-	void OnTouchMoved(const TouchPtr& touch);
+	void OnTouchBegan(const TouchInfo& touch);
+	void OnTouchEnded(const TouchInfo& touch);
+	void OnTouchMoved(const TouchInfo& touch);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<AMapView> MapClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCameraZoomController* ZoomController = nullptr;
+	UCameraZoomHelper* ZoomController;
 private:
 	AMapView* Map = nullptr;
 };

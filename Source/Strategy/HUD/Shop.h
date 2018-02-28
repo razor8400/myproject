@@ -9,6 +9,8 @@ class STRATEGY_API UShop : public UUserWidget
 {
 	GENERATED_BODY()
 public:
+    void LoadContent();
+public:
 	UFUNCTION(BlueprintCallable, Category = "Buttons")
 	void OnSelectShopItem();
 };
