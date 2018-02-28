@@ -17,8 +17,6 @@ public:
 	// Sets default values for this component's properties
 	UCameraZoomHelper();
 protected:
-	// Called when the game starts
-	void BeginPlay() override;	
 	// Called every frame
 	void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 public:

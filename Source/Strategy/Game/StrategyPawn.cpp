@@ -4,11 +4,6 @@
 #include "View/MapView.h"
 
 #include "Engine/World.h"
-#include "GameFramework/SpringArmComponent.h"
-
-#include "Camera/CameraComponent.h"
-#include "Utils/CameraZoomHelper.h"
-
 #include "Strategy.h"
 
 // Sets default values
@@ -22,17 +17,6 @@ AStrategyPawn::AStrategyPawn()
 void AStrategyPawn::BeginPlay()
 {
 	Super::BeginPlay();
-
-	if (MapClass)
-		Map = GetWorld()->SpawnActor<AMapView>(MapClass);
-
-    ZoomController = Cast<UCameraZoomHelper>(GetComponentByClass(UCameraZoomHelper::StaticClass()));
-
-	if (ZoomController)
-    {
-        
-    }
-		//ZoomController->Setup(FindComponentByClass<UCameraComponent>(), FindComponentByClass<USpringArmComponent>());
 }
 
 // Called every frame
@@ -57,14 +41,11 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 
 	if (player->IsInputKeyDown(EKeys::LeftAlt))
 	{
-		if (ZoomController)
-		{
-			auto last = VectorLenght(touch.PrevLocation);
-			auto current = VectorLenght(touch.Location);
-			auto delta = last - current;
+		auto last = VectorLenght(touch.PrevLocation);
+		auto current = VectorLenght(touch.Location);
+		auto delta = last - current;
 
-			ZoomController->ZoomCamera(delta);
-		}
+		CameraZoomValue += delta;
 	}
 	else
 	{

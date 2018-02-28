@@ -8,7 +8,6 @@
 #include "StrategyPawn.generated.h"
 
 class AMapView;
-class UCameraZoomHelper;
 
 UCLASS()
 class STRATEGY_API AStrategyPawn : public APawn
@@ -29,10 +28,8 @@ public:
 	void OnTouchMoved(const TouchInfo& touch);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSubclassOf<AMapView> MapClass;
+	AMapView* Map;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UCameraZoomHelper* ZoomController;
-private:
-	AMapView* Map = nullptr;
+	float CameraZoomValue;
 };

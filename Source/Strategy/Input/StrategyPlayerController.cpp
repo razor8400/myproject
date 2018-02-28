@@ -22,7 +22,7 @@ void AStrategyPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	for (auto touch : Touches)
+	for (auto& touch : Touches)
 	{
 		auto location = GetMouseLocation();
 		if (location != touch.Location)
