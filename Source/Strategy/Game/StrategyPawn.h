@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Strategy.h"
-#include "StrategyPlayerController.h"
+#include "Controller/StrategyPlayerController.h"
 #include "GameFramework/Pawn.h"
 #include "StrategyPawn.generated.h"
 

@@ -24,7 +24,7 @@ void AStrategyPawn::BeginPlay()
 	Super::BeginPlay();
 
 	if (MapClass)
-		Map = GetWorld()->SpawnActor<AMapView>(MapClass, FActorSpawnParameters());
+		Map = GetWorld()->SpawnActor<AMapView>(MapClass);
 
 	ZoomController = FindComponentByClass<UCameraZoomController>();
 
@@ -71,6 +71,7 @@ void AStrategyPawn::OnTouchMoved(const TouchPtr& touch)
 	}
 	else
 	{
-		Map->ScrollMap(touch->Delta());
+		if (Map)
+			Map->ScrollMap(touch->Delta());
 	}
 }

@@ -9,12 +9,18 @@
 /**
  * 
  */
+
+class AObjectsProvider;
+
 UCLASS()
 class STRATEGY_API AStrategyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+public:
+	void BeginPlay() override;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AObjectsProvider> ProviderClass;
+private:
+	AObjectsProvider* Provider = nullptr;
 };

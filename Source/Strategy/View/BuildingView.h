@@ -8,6 +8,7 @@
 #include "BuildingView.generated.h"
 
 class AMapView;
+class UTexture2D;
 
 UCLASS()
 class STRATEGY_API ABuildingView : public AActor
@@ -38,4 +39,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	BuildingType BuildingType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture2D* Icon;
 }; 
