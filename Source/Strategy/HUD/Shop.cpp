@@ -7,6 +7,11 @@
 void UShop::LoadContent()
 {
     auto mode = Cast<AStrategyGameMode>(GetWorld()->GetAuthGameMode());
+    
+    if (mode)
+    {
+
+    }
 }
 
 void UShop::OnSelectShopItem()

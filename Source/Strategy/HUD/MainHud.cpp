@@ -6,11 +6,10 @@
 void AMainHud::BeginPlay()
 {
 	Super::BeginPlay();
+}
 
-	if (ShopClass)
-	{
-		Shop = CreateWidget<UShop>(GetWorld(), ShopClass);
+void AMainHud::LoadShopContent()
+{
+    if (Shop)
         Shop->LoadContent();
-		Shop->AddToViewport();
-	}
 }

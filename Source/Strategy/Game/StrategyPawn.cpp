@@ -4,6 +4,9 @@
 #include "View/MapView.h"
 
 #include "Engine/World.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
+
 #include "Strategy.h"
 
 // Sets default values
@@ -52,4 +55,32 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 		if (Map)
 			Map->ScrollMap(touch.Delta());
 	}
+}
+
+void AStrategyPawn::SetCameraFOV(float fov)
+{
+    if (CameraComponent)
+        CameraComponent->FieldOfView = fov;
+}
+
+float AStrategyPawn::GetCameraFOV() const
+{
+    if (CameraComponent)
+        return CameraComponent->FieldOfView;
+    
+    return 0;
+}
+
+void AStrategyPawn::SetTargetArmLenght(float lenght)
+{
+    if (SpringArmComponent)
+        SpringArmComponent->TargetArmLength = lenght;
+}
+
+float AStrategyPawn::GetTargetArmLenght() const
+{
+    if (SpringArmComponent)
+        return SpringArmComponent->TargetArmLength;
+    
+    return 0;
 }

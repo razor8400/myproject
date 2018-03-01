@@ -23,8 +23,10 @@ protected:
 public:	
 	// Called every frame
 	void Tick(float DeltaTime) override;
-	FVector2D GetMapSize() const;
 	FVector ConvertTileToWorld(const FVector2D& Tile);
+    
+    UFUNCTION(BlueprintCallable, Category = MapSize)
+    FVector2D GetMapSize() const;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D TileSize;
@@ -33,10 +35,8 @@ public:
 	FVector2D MapSize;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float ScrollSpeed = 10.0f;
+    FVector2D ScrollVelocity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<ABuildingView*> Buildings;
-
-	FVector2D ScrollVelocity;
 };

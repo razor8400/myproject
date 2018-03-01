@@ -6,13 +6,10 @@
 #include "GameFramework/HUD.h"
 #include "MainHud.generated.h"
 
-
 class UShop;
 /**
  * 
  */
-
-class UUserWidget;
 
 UCLASS()
 class STRATEGY_API AMainHud : public AHUD
@@ -20,9 +17,10 @@ class STRATEGY_API AMainHud : public AHUD
 	GENERATED_BODY()
 public:
 	void BeginPlay() override;
+    
+    UFUNCTION(BlueprintCallable, Category=Shop)
+    void LoadShopContent();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSubclassOf<UShop> ShopClass;
-private:
-	UShop* Shop;
+    UShop* Shop;
 };
