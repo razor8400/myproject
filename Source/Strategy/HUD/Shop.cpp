@@ -10,7 +10,9 @@ void UShop::LoadContent()
     
     if (mode)
     {
-
+        CreateShopButton();
+        
+        //button->AddToViewport();
     }
 }
 

@@ -11,7 +11,10 @@ class STRATEGY_API UShop : public UUserWidget
 public:
     void LoadContent();
 public:
-	UFUNCTION(BlueprintCallable, Category = "Buttons")
+	UFUNCTION(BlueprintCallable, Category="Buttons")
 	void OnSelectShopItem();
+    
+    UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Create Shop Button"))
+    void CreateShopButton();
 };
 
