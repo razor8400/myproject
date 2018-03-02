@@ -4,6 +4,8 @@
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
 #include "Shop.generated.h"
 
+class UShopButton;
+
 UCLASS()
 class STRATEGY_API UShop : public UUserWidget
 {
@@ -15,6 +17,6 @@ public:
 	void OnSelectShopItem();
     
     UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Create Shop Button"))
-    void CreateShopButton();
+	UShopButton* CreateShopButton() const;
 };
 
