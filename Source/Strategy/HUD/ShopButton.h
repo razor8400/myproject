@@ -11,6 +11,8 @@ class STRATEGY_API UShopButton : public UUserWidget
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UImage* IconImage;
+    void UpdateIcon(UTexture2D* texture);
+public:
+    UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Get Icon"))
+    UImage* GetIcon() const;
 };

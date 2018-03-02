@@ -2,7 +2,6 @@
 #include "ShopButton.h"
 #include "Strategy.h"
 
-#include "Runtime/UMG/Public/Components/Image.h"
 #include "Game/StrategyGameMode.h"
 #include "Engine/World.h"
 
@@ -14,19 +13,26 @@ void UShop::LoadContent()
     
     if (mode)
     {
-		for (auto view : mode->Buildings)
-		{
-			auto button = CreateShopButton();
-
-			if (button)
-			{
-				auto model = view->GetDefaultObject<ABuildingView>();
-
-				if (button->IconImage)
-					button->IconImage->SetBrushFromTexture(model->Icon);
-				button->AddToViewport();
-			}
-		}
+        auto& buildings = mode->Buildings;
+        
+        for (int y = 0; y < rows; ++y)
+        {
+            for (int x = 0; x < colls; ++x)
+            {
+                int i = y * colls + x;
+                if (i < buildings.Num())
+                {
+                    auto button = CreateShopButton(x, y);
+                    
+                    if (button)
+                    {
+                        auto model = buildings[i]->GetDefaultObject<ABuildingView>();
+                        
+                        button->UpdateIcon(model->Icon);
+                    }
+                }
+            }
+        }
     }
 }
 
