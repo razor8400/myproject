@@ -29,6 +29,7 @@ void UShop::LoadContent()
                         auto model = buildings[i]->GetDefaultObject<ABuildingView>();
                         
                         button->UpdateIcon(model->Icon);
+                        button->item = model->itemId;
                     }
                 }
             }
@@ -36,7 +37,7 @@ void UShop::LoadContent()
     }
 }
 
-void UShop::OnSelectShopItem()
+void UShop::OnSelectShopItem(int item)
 {
-
+    LOG_FORMAT("%i", item);
 }

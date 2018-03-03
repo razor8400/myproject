@@ -15,4 +15,7 @@ public:
 public:
     UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Get Icon"))
     UImage* GetIcon() const;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    int item;
 };

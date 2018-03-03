@@ -21,23 +21,22 @@ void ABuildingView::Tick(float DeltaTime)
 
 void ABuildingView::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
-	PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, X, OnSetTile);
-	PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Y, OnSetTile);
-	PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Map, OnSetMap);
+    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, X, OnSetTile);
+    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Y, OnSetTile);
+    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Map, OnSetMap);
 }
 
 void ABuildingView::OnSetTile()
 {
-	if (Map)
-	{
-		auto location = Map->ConvertTileToWorld(FVector2D(X, Y) + Size / 2);
-		SetActorLocation(location);
-	}
+    if (Map)
+    {
+        auto location = Map->ConvertTileToWorld(FVector2D(X, Y) + Size / 2);
+        SetActorLocation(location);
+    }
 }
 
 void ABuildingView::OnSetMap()
 {
-	if (Map)
-		Map->Buildings.Add(this);
+    if (Map)
+        Map->Buildings.Add(this);
 }
-

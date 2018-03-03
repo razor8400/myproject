@@ -3,29 +3,35 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Game/GameObject.h"
-#include "Strategy.h"
-#include "BuildingView.generated.h"
+#include "GameFramework/Actor.h"
+#include "GameObject.generated.h"
+
+class AMapView;
+class UTexture2D;
 
 UCLASS()
-class STRATEGY_API ABuildingView : public AGameObject
+class STRATEGY_API AGameObject : public AActor
 {
 	GENERATED_BODY()
 public:	
 	// Sets default values for this actor's properties
-	ABuildingView();
+	AGameObject();
 protected:
 	void BeginPlay() override;
 	void Tick(float DeltaTime) override;
-    
-    void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
-    
-    void OnSetTile();
-    void OnSetMap();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector2D Size = FVector2D(1, 1);
+	int X;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	BuildingType BuildingType;
+	int Y;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	AMapView* Map = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture2D* Icon;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    int itemId;
 }; 

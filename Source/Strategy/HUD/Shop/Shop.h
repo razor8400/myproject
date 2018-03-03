@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
+//#include "HUD/Windows/Window.h"
 #include "Shop.generated.h"
 
 class UShopButton;
@@ -12,7 +13,7 @@ class STRATEGY_API UShop : public UUserWidget
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintCallable, Category="Buttons")
-	void OnSelectShopItem();
+	void OnSelectShopItem(int item);
     
     UFUNCTION(BlueprintCallable, meta=(DisplayName="Load Content"))
     void LoadContent();
