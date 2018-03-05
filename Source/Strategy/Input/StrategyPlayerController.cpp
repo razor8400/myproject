@@ -1,13 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "StrategyPlayerController.h"
+#include "Controller/InputController.h"
 #include "Game/StrategyPawn.h"
 
 void AStrategyPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-
-	StrategyPawn = Cast<AStrategyPawn>(GetPawn());
 }
 
 void AStrategyPlayerController::SetupInputComponent()
@@ -30,8 +29,7 @@ void AStrategyPlayerController::Tick(float DeltaTime)
 			touch.PrevLocation = touch.Location;
 			touch.Location = location;
 
-			if (StrategyPawn)
-				StrategyPawn->OnTouchMoved(touch);
+			InputController::Instance().MoveTouch(touch);
 		}
 	}
 }
@@ -43,8 +41,7 @@ void AStrategyPlayerController::OnMouseDown()
 	
 	Touches.push_back(touch);
 
-	if (StrategyPawn)
-		StrategyPawn->OnTouchBegan(touch);
+	InputController::Instance().BeginTouch(touch);
 }
 
 void AStrategyPlayerController::OnMouseUp()
@@ -55,8 +52,7 @@ void AStrategyPlayerController::OnMouseUp()
 	touch.Location = location;
 	Touches.pop_back();
 
-	if (StrategyPawn)
-		StrategyPawn->OnTouchEnded(touch);
+	InputController::Instance().EndTouch(touch);
 }
 
 FVector2D AStrategyPlayerController::GetMouseLocation() const

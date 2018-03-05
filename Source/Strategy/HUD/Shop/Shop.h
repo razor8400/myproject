@@ -1,14 +1,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Runtime/UMG/Public/Blueprint/UserWidget.h"
-//#include "HUD/Windows/Window.h"
+#include "HUD/Windows/Window.h"
 #include "Shop.generated.h"
 
 class UShopButton;
 
 UCLASS()
-class STRATEGY_API UShop : public UUserWidget
+class STRATEGY_API UShop : public UWindow
 {
 	GENERATED_BODY()
 public:

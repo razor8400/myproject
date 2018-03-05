@@ -7,11 +7,23 @@
 #include <list>
 #include <memory>
 #include <algorithm>
+#include <vector>
+#include <string.h>
+#include <functional>
+#include <map>
 
 static float VectorLenght(const FVector2D& v2)
 {
 	return sqrt(v2.X * v2.X + v2.Y * v2.Y);
 }
+
+class UTexture2D;
+
+struct ObjectInfo
+{
+	int Id = -1;
+	UTexture2D* ShopIcon = nullptr;
+};
 
 UENUM(BlueprintType)
 enum class BuildingType : uint8

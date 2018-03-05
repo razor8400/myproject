@@ -16,10 +16,25 @@ AStrategyPawn::AStrategyPawn()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+AStrategyPawn::~AStrategyPawn()
+{
+	InputController::Instance().RemoveDelegate(this);
+}
+
 // Called when the game starts or when spawned
 void AStrategyPawn::BeginPlay()
 {
 	Super::BeginPlay();
+	ShopController::Instance().SetDelegate(this);
+	InputController::Instance().AddDelegate(this, 1);
+}
+
+void AStrategyPawn::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+
+	ShopController::Instance().SetDelegate(nullptr);
+	InputController::Instance().RemoveDelegate(this);
 }
 
 // Called every frame
@@ -28,9 +43,9 @@ void AStrategyPawn::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AStrategyPawn::OnTouchBegan(const TouchInfo& touch)
+bool AStrategyPawn::OnTouchBegan(const TouchInfo& touch)
 {
-
+	return true;
 }
 
 void AStrategyPawn::OnTouchEnded(const TouchInfo& touch)
@@ -57,30 +72,8 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 	}
 }
 
-void AStrategyPawn::SetCameraFOV(float fov)
+void AStrategyPawn::OnSelectItem(int id)
 {
-    if (CameraComponent)
-        CameraComponent->FieldOfView = fov;
+
 }
 
-float AStrategyPawn::GetCameraFOV() const
-{
-    if (CameraComponent)
-        return CameraComponent->FieldOfView;
-    
-    return 0;
-}
-
-void AStrategyPawn::SetTargetArmLenght(float lenght)
-{
-    if (SpringArmComponent)
-        SpringArmComponent->TargetArmLength = lenght;
-}
-
-float AStrategyPawn::GetTargetArmLenght() const
-{
-    if (SpringArmComponent)
-        return SpringArmComponent->TargetArmLength;
-    
-    return 0;
-}

@@ -26,5 +26,4 @@ private:
 	FVector2D GetMouseLocation() const;
 private:
 	std::list<TouchInfo> Touches;
-	class AStrategyPawn* StrategyPawn = nullptr;
 };

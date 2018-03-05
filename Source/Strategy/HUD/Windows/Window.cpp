@@ -2,12 +2,23 @@
 
 #include "Window.h"
 
-//void UBaseWindow::Open()
-//{
-  //  AddToViewport();
-//}
+void UWindow::SetDelegate(WindowDelegate* delegate)
+{
+	Delegate = delegate;
+}
 
-//void UBaseWindow::Close()
-//{
-//    RemoveFromParent();
-//}
+void UWindow::Open()
+{
+	AddToViewport();
+
+	if (Delegate)
+		Delegate->OnWindowOpened(this);
+}
+
+void UWindow::Close()
+{
+	RemoveFromParent();
+
+	if (Delegate)
+		Delegate->OnWindowClosed(this);
+}
