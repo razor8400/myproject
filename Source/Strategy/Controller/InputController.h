@@ -9,6 +9,8 @@ public:
 	virtual bool OnTouchBegan(const TouchInfo& touch) = 0;
 	virtual void OnTouchEnded(const TouchInfo& touch) = 0;
 	virtual void OnTouchMoved(const TouchInfo& touch) = 0;
+public:
+    int Priority = -1;
 };
 
 typedef std::list<InputDelegate*> InputHandlers;
@@ -26,7 +28,7 @@ public:
 private:
 	InputController();
 
-	std::map<int, InputHandlers> Listeners;
+    std::list<InputDelegate*> Listeners;
 
 	InputDelegate* Listener = nullptr;
 };

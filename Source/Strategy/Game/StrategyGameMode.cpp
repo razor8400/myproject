@@ -3,18 +3,19 @@
 #include "StrategyGameMode.h"
 #include "Strategy.h"
 
-#include "View/BuildingView.h"
 #include "Controller/ShopController.h"
+#include "GameObject.h"
+#include "ObjectsProvider.h"
 
 void AStrategyGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
 	std::vector<ObjectInfo> content;
-
+    
 	for (auto view : Buildings)
 	{
-		auto model = view->GetDefaultObject<ABuildingView>();
+		auto model = view->GetDefaultObject<AGameObject>();
 
 		if (!model)
 			continue;
@@ -26,5 +27,6 @@ void AStrategyGameMode::BeginPlay()
 		content.push_back(info);
 	}
 
-	ShopController::Instance().SetContent(content);
+    ObjectsProvider::Instance().Load(Buildings);
+	ShopController::Instance().LoadContent(content);
 }

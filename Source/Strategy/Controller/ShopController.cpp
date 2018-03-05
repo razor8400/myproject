@@ -1,6 +1,5 @@
 #include "ShopController.h"
 
-
 ShopController::ShopController()
 {
 

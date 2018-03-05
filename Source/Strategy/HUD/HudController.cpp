@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "HudController.h"
+#include "Strategy.h"
 
 AHudController::~AHudController()
 {
@@ -23,7 +24,7 @@ void AHudController::EndPlay(const EEndPlayReason::Type EndPlayReason)
 
 bool AHudController::OnTouchBegan(const TouchInfo& touch)
 {
-	return false;
+	return Windows.Num() > 0;
 }
 
 void AHudController::OnTouchEnded(const TouchInfo& touch)

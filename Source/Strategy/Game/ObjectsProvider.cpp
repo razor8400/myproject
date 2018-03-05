@@ -1,4 +1,5 @@
 #include "ObjectsProvider.h"
+#include "Strategy.h"
 
 ObjectsProvider& ObjectsProvider::Instance()
 {
@@ -10,3 +11,4 @@ ObjectsProvider::ObjectsProvider()
 {
 
 }
+

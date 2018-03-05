@@ -12,6 +12,7 @@
 #include "StrategyPawn.generated.h"
 
 class AMapView;
+class ABuildingView;
 class UCameraComponent;
 class USpringArmComponent;
 
@@ -39,12 +40,6 @@ public:
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	AMapView* Map;
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    UCameraComponent* CameraComponent;
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    USpringArmComponent* SpringArmComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float CameraZoomValue;

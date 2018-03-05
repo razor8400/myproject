@@ -16,7 +16,7 @@ public:
 	void SetDelegate(ShopDelegate* delegate);
 	void OnSelectItem(int id);
 
-	void SetContent(const std::vector<ObjectInfo>& content) { Content = content; }
+	void LoadContent(const std::vector<ObjectInfo>& content) { Content = content; }
 	const std::vector<ObjectInfo>& GetContent() const { return Content;  }
 private:
 	ShopController();

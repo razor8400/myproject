@@ -10,7 +10,7 @@
  * 
  */
 
-class ABuildingView;
+class AGameObject;
 
 UCLASS()
 class STRATEGY_API AStrategyGameMode : public AGameModeBase
@@ -20,5 +20,5 @@ public:
 	void BeginPlay() override;
 public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    TArray<TSubclassOf<ABuildingView>> Buildings;
+    TArray<TSubclassOf<AGameObject>> Buildings;
 };

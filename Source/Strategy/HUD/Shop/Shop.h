@@ -1,7 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "HUD/Windows/Window.h"
+#include "HUD/Window/Window.h"
 #include "Shop.generated.h"
 
 class UShopButton;

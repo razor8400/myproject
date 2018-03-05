@@ -2,11 +2,13 @@
 
 #include "StrategyPawn.h"
 #include "View/MapView.h"
+#include "View/BuildingView.h"
 
 #include "Engine/World.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
+#include "ObjectsProvider.h"
 #include "Strategy.h"
 
 // Sets default values
@@ -74,6 +76,11 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 
 void AStrategyPawn::OnSelectItem(int id)
 {
-
+    auto view = ObjectsProvider::Instance().CreateObject<ABuildingView>(GetWorld(), id);
+    
+    if (view)
+    {
+        view->Map = Map;
+    }
 }
 

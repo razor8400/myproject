@@ -1,19 +1,44 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "View/BuildingView.h"
 
-class AGameObject;
-class ABuildingView;
+#include "Engine/World.h"
+
+typedef TSubclassOf<AGameObject> ObjectClass;
 
 class ObjectsProvider
 {
 public:
 	static ObjectsProvider& Instance();
 
-	void LoadBuildings(const TArray<ABuildingView*>& buildings);
+    void Load(const TArray<ObjectClass>& objects) { Objects = objects; }
+    
+    template<class T>
+    T* CreateObject(UWorld* world, int id) const;
 private:
 	ObjectsProvider();
-
 private:
-	TArray<ABuildingView*> buildings;
+	TArray<ObjectClass> Objects;
 };
+
+template<class T>
+T* ObjectsProvider::CreateObject(UWorld* world, int id) const
+{
+    auto obj = Objects.FindByPredicate([id](ObjectClass clazz)
+    {
+       auto obj = clazz->GetDefaultObject<T>();
+       
+       if (obj)
+           return obj->itemId == id;
+       return false;
+    });
+    
+    if (obj)
+        return world->SpawnActor<T>(Objects[0], FActorSpawnParameters());
+    
+    LOG("HUI");
+    
+    return nullptr;
+}
+
