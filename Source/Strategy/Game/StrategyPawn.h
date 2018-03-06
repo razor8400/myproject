@@ -43,6 +43,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float CameraZoomValue;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FVector2D ScrollVelocity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	ABuildingView* Selected;

@@ -32,5 +32,6 @@ void UShop::LoadContent()
 
 void UShop::OnSelectShopItem(int item)
 {
+    Close();
 	ShopController::Instance().OnSelectItem(item);
 }

@@ -15,7 +15,7 @@ public:
     void Load(const TArray<ObjectClass>& objects) { Objects = objects; }
     
     template<class T>
-    T* CreateObject(UWorld* world, int id) const;
+    T* CreateObject(UWorld* world, const FTransform& Transform, int id) const;
 private:
 	ObjectsProvider();
 private:
@@ -23,7 +23,7 @@ private:
 };
 
 template<class T>
-T* ObjectsProvider::CreateObject(UWorld* world, int id) const
+T* ObjectsProvider::CreateObject(UWorld* world, const FTransform& Transform, int id) const
 {
     auto obj = Objects.FindByPredicate([id](ObjectClass clazz)
     {
@@ -35,9 +35,7 @@ T* ObjectsProvider::CreateObject(UWorld* world, int id) const
     });
     
     if (obj)
-        return world->SpawnActor<T>(Objects[0], FActorSpawnParameters());
-    
-    LOG("HUI");
+        return world->SpawnActor<T>(*obj, Transform, FActorSpawnParameters());
     
     return nullptr;
 }

@@ -10,11 +10,6 @@ AMapView::AMapView()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
-void AMapView::ScrollMap(const FVector2D& delta)
-{
-	ScrollVelocity += delta;
-}
-
 // Called when the game starts or when spawned
 void AMapView::BeginPlay()
 {

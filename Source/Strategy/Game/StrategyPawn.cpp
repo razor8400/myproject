@@ -21,6 +21,7 @@ AStrategyPawn::AStrategyPawn()
 AStrategyPawn::~AStrategyPawn()
 {
 	InputController::Instance().RemoveDelegate(this);
+    ShopController::Instance().SetDelegate(nullptr);
 }
 
 // Called when the game starts or when spawned
@@ -69,18 +70,20 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 	}
 	else
 	{
-		if (Map)
-			Map->ScrollMap(touch.Delta());
+        ScrollVelocity += touch.Delta();
 	}
 }
 
 void AStrategyPawn::OnSelectItem(int id)
 {
-    auto view = ObjectsProvider::Instance().CreateObject<ABuildingView>(GetWorld(), id);
-    
-    if (view)
-    {
-        view->Map = Map;
-    }
+  //  if (Map)
+   // {
+        auto view = ObjectsProvider::Instance().CreateObject<ABuildingView>(GetWorld(), GetTransform(), id);
+        
+       // if (view)
+       // {
+        //    view->Map = Map;
+       // }
+   // }
 }
 

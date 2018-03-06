@@ -15,8 +15,7 @@ class STRATEGY_API AMapView : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMapView();
-
-	void ScrollMap(const FVector2D& Delta);
+    
 protected:
 	// Called when the game starts or when spawned
 	void BeginPlay() override;
@@ -35,8 +34,8 @@ public:
 	FVector2D MapSize;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    FVector2D ScrollVelocity;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<ABuildingView*> Buildings;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FVector2D ScrollVelocity;
 };
