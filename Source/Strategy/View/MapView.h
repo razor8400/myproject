@@ -26,6 +26,9 @@ public:
     
     UFUNCTION(BlueprintCallable, Category = MapSize)
     FVector2D GetMapSize() const;
+    
+    UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Scroll Map"))
+    void ScrollMap(const FVector2D& Delta);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D TileSize;
@@ -35,7 +38,4 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<ABuildingView*> Buildings;
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    FVector2D ScrollVelocity;
 };

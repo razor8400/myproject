@@ -36,7 +36,7 @@ T* ObjectsProvider::CreateObject(UWorld* world, const FTransform& Transform, int
     
     if (obj)
         return world->SpawnActor<T>(*obj, Transform, FActorSpawnParameters());
-    
+        
     return nullptr;
 }
 

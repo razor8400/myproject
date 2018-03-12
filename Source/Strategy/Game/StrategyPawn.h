@@ -37,15 +37,12 @@ public:
 	void OnTouchMoved(const TouchInfo& touch) override;
 
 	void OnSelectItem(int id) override;
+    
+    UFUNCTION(BlueprintImplementableEvent, meta=(DisplayName="Zoom Camera"))
+    void ZoomCamera(float Zoom);
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	AMapView* Map;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float CameraZoomValue;
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    FVector2D ScrollVelocity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	ABuildingView* Selected;

@@ -66,24 +66,27 @@ void AStrategyPawn::OnTouchMoved(const TouchInfo& touch)
 		auto current = VectorLenght(touch.Location);
 		auto delta = last - current;
 
-		CameraZoomValue += delta;
+		ZoomCamera(delta);
 	}
 	else
 	{
-        ScrollVelocity += touch.Delta();
+        if (Map)
+            Map->ScrollMap(touch.Delta());
 	}
 }
 
 void AStrategyPawn::OnSelectItem(int id)
 {
-  //  if (Map)
-   // {
-        auto view = ObjectsProvider::Instance().CreateObject<ABuildingView>(GetWorld(), GetTransform(), id);
+    if (Map)
+    {
+        auto view = ObjectsProvider::Instance().CreateObject<ABuildingView>(GetWorld(), Map->GetTransform(), id);
         
-       // if (view)
-       // {
-        //    view->Map = Map;
-       // }
-   // }
+        if (view)
+        {
+            view->Map = Map;
+            view->SetActorLocation(Map->GetActorLocation() * -1);
+            view->AttachToActor(Map, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
+        }
+    }
 }
 
