@@ -4,8 +4,8 @@
 #include "Strategy.h"
 
 #include "Controller/ShopController.h"
-#include "GameObject.h"
-#include "ObjectsProvider.h"
+#include "Objects/GameObject.h"
+#include "Objects/ObjectsProvider.h"
 
 void AStrategyGameMode::BeginPlay()
 {

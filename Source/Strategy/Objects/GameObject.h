@@ -21,10 +21,7 @@ protected:
 	void Tick(float DeltaTime) override;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int X;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int Y;
+    FVector2D Tile;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	AMapView* Map = nullptr;

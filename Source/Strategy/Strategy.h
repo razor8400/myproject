@@ -33,6 +33,12 @@ enum class BuildingType : uint8
 	Tower UMETA(DisplayName = "Tower")
 };
 
+namespace grid
+{
+    static const int neighnours_count = 8;
+    static const int neighnours[neighnours_count][2] = { {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}, {-1, 0}, {-1, 1} };
+}
+
 #define PROPERTY_HANDLER(Event, Type, PropertyName, Function) \
 if (Event.Property != nullptr && (Event.Property->GetFName() == GET_MEMBER_NAME_CHECKED(Type, PropertyName))) \
 	Function();

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Strategy.h"
 #include "GameFramework/Actor.h"
 #include "MapView.generated.h"
 
@@ -22,7 +23,15 @@ protected:
 public:	
 	// Called every frame
 	void Tick(float DeltaTime) override;
-	FVector ConvertTileToWorld(const FVector2D& Tile);
+	FVector ConvertTileToWorld(const FVector2D& Tile) const;
+    FVector2D ConvertWorldToTile(const FVector& World) const;
+    FVector2D GetFreeTile(const FVector2D& Tile) const;
+    
+    std::vector<FVector2D> GetNeighbours(const FVector2D& Tile) const;
+    
+    ABuildingView* GetViewAtTile(const FVector2D& Tile) const;
+    
+    bool TileInMap(const FVector2D& Tile) const;
     
     UFUNCTION(BlueprintCallable, Category = MapSize)
     FVector2D GetMapSize() const;

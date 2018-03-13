@@ -19,24 +19,13 @@ void ABuildingView::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ABuildingView::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
-{
-    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, X, OnSetTile);
-    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Y, OnSetTile);
-    PROPERTY_HANDLER(PropertyChangedEvent, ABuildingView, Map, OnSetMap);
-}
-
-void ABuildingView::OnSetTile()
+void ABuildingView::UpdateLocation()
 {
     if (Map)
     {
-        auto location = Map->ConvertTileToWorld(FVector2D(X, Y) + Size / 2);
-        SetActorLocation(location);
+        auto location = Map->ConvertTileToWorld(Tile + Size / 2);
+        SetActorRelativeLocation(location);
     }
 }
 
-void ABuildingView::OnSetMap()
-{
-    if (Map)
-        Map->Buildings.Add(this);
-}
+

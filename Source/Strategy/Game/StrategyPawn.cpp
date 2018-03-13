@@ -8,7 +8,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
-#include "ObjectsProvider.h"
+#include "Objects/ObjectsProvider.h"
 #include "Strategy.h"
 
 // Sets default values
@@ -83,9 +83,18 @@ void AStrategyPawn::OnSelectItem(int id)
         
         if (view)
         {
+            auto location = Map->GetActorLocation() * -1;
+            auto tile = Map->GetFreeTile(Map->ConvertWorldToTile(location));
+            
+            auto x = std::max(0.0f, std::min(tile.X, Map->MapSize.X - view->Size.X));
+            auto y = std::max(0.0f, std::min(tile.Y, Map->MapSize.Y - view->Size.Y));
+            
             view->Map = Map;
-            view->SetActorLocation(Map->GetActorLocation() * -1);
+            view->Tile = FVector2D(x, y);
             view->AttachToActor(Map, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
+            view->UpdateLocation();
+            
+            Map->Buildings.Add(view);
         }
     }
 }

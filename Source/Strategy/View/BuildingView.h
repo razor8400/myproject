@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Game/GameObject.h"
 #include "Strategy.h"
+#include "Objects/GameObject.h"
 #include "BuildingView.generated.h"
 
 UCLASS()
@@ -14,14 +14,10 @@ class STRATEGY_API ABuildingView : public AGameObject
 public:	
 	// Sets default values for this actor's properties
 	ABuildingView();
+    void UpdateLocation();
 protected:
 	void BeginPlay() override;
 	void Tick(float DeltaTime) override;
-    
-    void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
-    
-    void OnSetTile();
-    void OnSetMap();
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D Size = FVector2D(1, 1);
