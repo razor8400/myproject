@@ -84,13 +84,14 @@ void AStrategyPawn::OnSelectItem(int id)
         if (view)
         {
             auto location = Map->GetActorLocation() * -1;
-            auto tile = Map->GetFreeTile(Map->ConvertWorldToTile(location));
+            auto tile = Map->ConvertWorldToTile(location);
             
             auto x = std::max(0.0f, std::min(tile.X, Map->MapSize.X - view->Size.X));
             auto y = std::max(0.0f, std::min(tile.Y, Map->MapSize.Y - view->Size.Y));
             
             view->Map = Map;
-            view->Tile = FVector2D(x, y);
+            view->Tile = Map->GetFreeTile(FVector2D(x, y), view->Size);
+            
             view->AttachToActor(Map, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
             view->UpdateLocation();
             

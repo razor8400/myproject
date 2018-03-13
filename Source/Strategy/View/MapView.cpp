@@ -22,7 +22,7 @@ void AMapView::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-FVector2D AMapView::GetFreeTile(const FVector2D& Tile) const
+FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) const
 {
     std::vector<FVector2D> open_tiles;
     std::vector<FVector2D> closed_tiles;
@@ -33,7 +33,18 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile) const
     {
         for (auto tile: open_tiles)
         {
-            if (GetViewAtTile(tile))
+            static const int bounds_count = 4;
+            
+            auto bounds = { tile, FVector2D(tile.X + Size.X - 1, tile.Y), FVector2D(tile.X, tile.Y + Size.Y - 1), FVector2D(tile.X + Size.X - 1, tile.Y + Size.Y - 1) };
+            auto count = 0;
+            
+            for (auto bound : bounds)
+            {
+                if (GetViewAtTile(bound))
+                    ++count;
+            }
+            
+            if (count < bounds_count)
                 continue;
 
             return tile;

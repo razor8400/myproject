@@ -25,7 +25,7 @@ public:
 	void Tick(float DeltaTime) override;
 	FVector ConvertTileToWorld(const FVector2D& Tile) const;
     FVector2D ConvertWorldToTile(const FVector& World) const;
-    FVector2D GetFreeTile(const FVector2D& Tile) const;
+    FVector2D GetFreeTile(const FVector2D& Tile, const FVector2D& Size) const;
     
     std::vector<FVector2D> GetNeighbours(const FVector2D& Tile) const;
     
