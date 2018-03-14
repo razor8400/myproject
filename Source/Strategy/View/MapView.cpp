@@ -40,8 +40,10 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) co
             
             for (auto bound : bounds)
             {
-                if (GetViewAtTile(bound))
-                    ++count;
+                if (GetViewAtTile(bound) || !TileInMap(bound))
+					++count;
+
+                //++count;
             }
             
             if (count < bounds_count)
@@ -60,7 +62,10 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) co
             
             for (auto neighbour : neighbours)
             {
-                auto it = std::find(closed_tiles.begin(), closed_tiles.end(), neighbour);
+				auto it = std::find_if(closed_tiles.begin(), closed_tiles.end(), [neighbour](const FVector2D& tile)
+				{
+					return tile == neighbour;
+				});
                 
                 if (it != closed_tiles.end())
                     continue;
@@ -106,7 +111,7 @@ ABuildingView* AMapView::GetViewAtTile(const FVector2D& Tile) const
             
 bool AMapView::TileInMap(const FVector2D& Tile) const
 {
-    return Tile.X >= 0 && Tile.X <= MapSize.X && Tile.Y >= 0 && Tile.Y <= MapSize.Y;
+    return Tile.X >= 0 && Tile.X < MapSize.X && Tile.Y >= 0 && Tile.Y < MapSize.Y;
 }
 
 FVector2D AMapView::GetMapSize() const
