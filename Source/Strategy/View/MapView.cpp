@@ -24,10 +24,10 @@ void AMapView::Tick(float DeltaTime)
 
 FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) const
 {
-    std::vector<FVector2D> open_tiles;
-    std::vector<FVector2D> closed_tiles;
+    std::set<FVector2D> open_tiles;
+    std::set<FVector2D> closed_tiles;
     
-    open_tiles.push_back(Tile);
+    open_tiles.insert(Tile);
     
     do
     {
@@ -41,7 +41,8 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) co
             for (auto bound : bounds)
             {
                 if (GetViewAtTile(bound) || !TileInMap(bound))
-					++count;
+                    ++count;
+                    //continue;
 
                 //++count;
             }
@@ -52,7 +53,7 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) co
             return tile;
         }
         
-        std::vector<FVector2D> tiles = open_tiles;
+        auto tiles = open_tiles;
         
         open_tiles.clear();
         
@@ -62,18 +63,15 @@ FVector2D AMapView::GetFreeTile(const FVector2D& Tile, const FVector2D& Size) co
             
             for (auto neighbour : neighbours)
             {
-				auto it = std::find_if(closed_tiles.begin(), closed_tiles.end(), [neighbour](const FVector2D& tile)
-				{
-					return tile == neighbour;
-				});
+                auto it = std::find(closed_tiles.begin(), closed_tiles.end(), neighbour);
                 
                 if (it != closed_tiles.end())
                     continue;
                 
-                open_tiles.push_back(neighbour);
+                open_tiles.insert(neighbour);
             }
             
-            closed_tiles.push_back(tile);
+            closed_tiles.insert(tile);
         }
     }
     while(open_tiles.size() > 0);

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.3488719"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729675.946594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "802">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729675.948971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "802">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.350042"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.350798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.351702"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.3522559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.352843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-4617.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542727815.119313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-4617.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542727815.210794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.3534909"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729570.4915791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2371">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729570.495272"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2398">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.354344"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.355113"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.355772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729707.30586"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1556">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729707.3086621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1600">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729707.311957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1556">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729707.314165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.3564661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729569.2725331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1495">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729569.2783051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2355">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729569.28273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1495">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729569.290015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2355">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.357173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542730072.917707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1955">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542730072.920328"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1955">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.357915"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542728283.2864029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542728283.289384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "291">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.358436"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729484.4991339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729484.511673"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "291">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729484.5156111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729484.521245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "291">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.358954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729699.7331181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2371">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729699.736294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2398">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.359493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729484.3599941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729572.109107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729572.1183881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1495">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729572.121763"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2355">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729572.126098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1495">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729572.129519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2355">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729712.217424"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "AMapView::GetNeighbours(const FVector2D&amp; Tile)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetNeighbours(FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729712.238766"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetNeighbours(FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729712.241322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Strategy/View/MapView.cpp"
+            timestampString = "542729752.396367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "AMapView::GetFreeTile(const FVector2D&amp; Tile, const FVector2D&amp; Size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-3977.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729752.40484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2371">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMapView::GetFreeTile(FVector2D const&amp;, FVector2D const&amp;) const"
+                  moduleName = "UE4Editor-Strategy-5626.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/Work/Strategy/Source/Strategy/View/MapView.cpp"
+                  timestampString = "542729752.407728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2398">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

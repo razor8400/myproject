@@ -10,6 +10,7 @@
 #include <vector>
 #include <string.h>
 #include <functional>
+#include <set>
 #include <map>
 
 static float VectorLenght(const FVector2D& v2)
